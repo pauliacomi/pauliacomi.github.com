@@ -27,7 +27,7 @@ github_username:  pauliacomi
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
 
