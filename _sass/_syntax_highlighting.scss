@@ -12,16 +12,16 @@
   $literal: $chelsea-cucumber !default;
   $keyword: $bouquet !default;
   $error-foreground: $cod-grey !default;
-  $error-background: $apple-blossom !default;
+  $error-background: $gulf-stream !default;
   $comment: $grey !default;
   $preprocessor: $rajah !default;
   $name-space: $rajah !default;
   $name-attribute: $hippie-blue !default;
   $operator: $rajah !default;
-  $keyword-type: $raw-sienna !default;
+  $keyword-type: $hippie-blue !default;
   $regex: $gulf-stream !default;
   $string-escape: $potters-clay !default;
-  $deleted: $apple-blossom !default;
+  $deleted: $gulf-stream !default;
   $header: $hippie-blue !default;
 
   color: $plaintext;
@@ -43,6 +43,7 @@
   .gi   { color: $string;} // Generic.Inserted
   .gd   { color: $deleted; } // Generic.Deleted
   .gh   { color: $header; font-weight: bold; } // Generic.Heading
+  .gs   { color: $header; font-weight: bold; } // Generic.
   .k    { color: $keyword; font-weight: bold; } // Keyword
   .kn   { color: $keyword; font-weight: bold; } // Keyword.
   .kp   { color: $keyword; font-weight: bold; } // Keyword.Pseudo

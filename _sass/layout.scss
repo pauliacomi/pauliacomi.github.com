@@ -1,16 +1,24 @@
-
 /* Header */
 
-header {
-    background: $header-background;
+.page-header {
+    background-color: $header-background;
+    background-image: linear-gradient(150deg, $header-background-2, $header-background);
     width: 100%;
-    border-bottom: 1px solid $light-grey;
+    border-bottom: 1px solid $transparent;
     padding: 30px 0;
     margin: 0 0 40px 0;
-}
 
-header #site-title {
-    font-size: 35px;
+    @include large {
+        padding: 5rem 0rem 2rem 0rem;
+    }
+    @include medium {
+        padding: 3rem 0rem;
+    }
+    @include small {
+        padding: 2rem 0rem;
+    }
+}
+#site-title {
     line-height: $base-line-height;
     display: inline-block;
     margin: 0 0 0 0;
@@ -19,48 +27,26 @@ header #site-title {
     color: $cod-grey;
     letter-spacing: -1px;
     -webkit-font-smoothing: antialiased;
-}
-.navbar {
-    padding: 50px 0 50px 0;
-}
-.navbar-ul {
-    display: inline-block;
-    margin: 0;
-    padding: 5px 0 5px 0;
-    margin-left: 20px;
-}
-.nav-list {
-    list-style-type: none;
-    margin: 0 5px 0 10px;
-}
-.aligned {
-    display: inline-block;
-}
-.to-left {
-    @extend .aligned;
-    float: left;
-}
-.to-right {
-    @extend .aligned;
-    float: right;
-}
 
-
-@media screen and (max-width: $on-medium) {
-    .navbar-ul {
-        margin-top: 5px;
+    @include large {
+        font-size: 3.25rem;
     }
-}
-@media screen and (max-width: $on-small) {
-    .navbar {
+    @include medium {
+        font-size: 2.25rem;
+    }
+    @include small {
         text-align: center;
-        padding: 50px 0px 0px 0px;
-    }
-    #site-title {
         width: 100%;
         float: none;
+        font-size: 1.75rem;
     }
-    #navlist {
+}
+.navbar {
+    margin: 0;
+    padding: 5px 0 5px 0;
+    color: $white;
+    
+    @include small{
         padding: 10px 0 10px 0;
         margin: 0;
         display: block;
@@ -68,22 +54,25 @@ header #site-title {
         text-align: center;
         width: 100%;
     }
-    #navlist li.align {
-        display: inline-block;
-    }
-    #navlist li.to-left {
-        float: none;
-    }
-    #navlist li.to-list {
-        margin: 0;
+    
+    @include medium{
+        margin-top: 5px;
     }
 }
 
+.navbar-btn {
+    @include large{
+        width: 90px;
+    }
+    @include medium{
+        width: 60px;
+    }
+}
 
 /* Footer */
 
 .site-footer {
-    border-top: 1px solid $light-grey;
+    border-top: 1px solid $transparent;
     padding: $spacing-unit 0;
 }
 
@@ -112,39 +101,51 @@ header #site-title {
     width:         calc(100% - (#{$spacing-unit} / 2));
     margin-bottom: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
+
+    @include small{
+        text-align: center;
+    }
+    @include medium{
+        float: left;
+    }
+    @include large{
+        float: left;
+    }
 }
   
-.footer-col-1,
+.footer-col-1 {
+    @include medium{
+        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+        width:         calc(50% - (#{$spacing-unit} / 2));
+    }
+
+    @include large{
+        width: -webkit-calc(30% - (#{$spacing-unit} / 2));
+        width:         calc(30% - (#{$spacing-unit} / 2));
+    }
+}
+
 .footer-col-2 {
-    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-    width:         calc(50% - (#{$spacing-unit} / 2));
+    @include medium{
+        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+        width:         calc(50% - (#{$spacing-unit} / 2));
+    }
+
+    @include large{
+        width: -webkit-calc(20% - (#{$spacing-unit} / 2));
+        width:         calc(20% - (#{$spacing-unit} / 2));
+    }
 }
   
 .footer-col-3 {
-    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-    width:         calc(100% - (#{$spacing-unit} / 2));
-}
-  
-@media screen and (min-width: $on-large) {
-    .footer-col-1 {
-        width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-        width:         calc(35% - (#{$spacing-unit} / 2));
+    @include medium{
+        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        width:         calc(100% - (#{$spacing-unit} / 2));
     }
-    
-    .footer-col-2 {
-        width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
-    }
-    
-    .footer-col-3 {
+
+    @include large{
         width: -webkit-calc(45% - (#{$spacing-unit} / 2));
         width:         calc(45% - (#{$spacing-unit} / 2));
-    }
-}
-  
-@media screen and (min-width: $on-medium) {
-    .footer-col {
-      float: left;
     }
 }
 
@@ -193,7 +194,7 @@ header #site-title {
     letter-spacing: -1px;
     line-height: 1;
   
-    @media screen and (min-width: $on-large) {
+    @include large {
       @include relative-font-size(2.625);
     }
 }
@@ -204,7 +205,7 @@ header #site-title {
     h2 {
       @include relative-font-size(1.75);
   
-      @media screen and (min-width: $on-large) {
+      @include large {
         @include relative-font-size(2);
       }
     }
@@ -212,7 +213,7 @@ header #site-title {
     h3 {
       @include relative-font-size(1.375);
   
-      @media screen and (min-width: $on-large) {
+      @include large {
         @include relative-font-size(1.625);
       }
     }
@@ -220,7 +221,7 @@ header #site-title {
     h4 {
       @include relative-font-size(1.125);
   
-      @media screen and (min-width: $on-large) {
+      @include large {
         @include relative-font-size(1.25);
       }
     }

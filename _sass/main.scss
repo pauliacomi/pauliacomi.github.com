@@ -1,6 +1,26 @@
+@import "normalize";
 @import "vars";
 @import "default_colors";
 @import "syntax_highlighting";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+@mixin large {
+  @media screen and (min-width: #{$on-large}) {
+    @content;
+  }
+}
+
+@mixin medium {
+  @media screen and (min-width: #{$on-medium}) and (max-width: #{$on-large}) {
+    @content;
+  }
+}
+
+@mixin small {
+  @media screen and (max-width: #{$on-medium}) {
+    @content;
+  }
+}
 
 body {
   margin: 0;
@@ -8,7 +28,7 @@ body {
   color: $body-foreground;
   font-size: $base-font-size;
   line-height: $base-line-height;
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* General & 'Reset' Stuff */
@@ -17,18 +37,14 @@ body {
   width: 90%;
   max-width: 1000px;
   margin: 0 auto;
-}
 
-@media screen and (max-width: $on-large) {
-  .container {
-      max-width: $med-width;
-      transition: 0.3s ease all;
+  @include large{
+    max-width: $med-width;
+    transition: 0.3s ease all;
   }
-}
 
-@media screen and (max-width: $on-medium) {
-  .container {
-      max-width: 83%;
+  @include medium{
+    max-width: 83%;
   }
 }
 
@@ -60,8 +76,7 @@ li {
   zoom:1;
 }
 
-/* Main Content
-*/
+/* Main Content */
 
 #main_content {
   width: 100%;
@@ -80,10 +95,12 @@ h1, h2, h3, h4, h5, h6 {
 
 #main_content h1 {
   font-size: 30px;
+  color: $dark-blue;
 }
 
 #main_content h2 {
   font-size: 24px;
+  color: $hippie-blue;
 }
 
 #main_content h3 {
@@ -126,12 +143,14 @@ pre {
   background: $white;
   border: 1px solid $cod-grey;
   padding: 10px;
+  font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
   font-size: 16px;
-  color: $alto;
   border-radius: 2px;
   word-wrap: normal;
   overflow: auto;
   overflow-y: hidden;
+  color: $code-text-color;
+  background-color: $code-bg-color;
 }
 
 code.highlighter-rouge {
@@ -139,8 +158,9 @@ code.highlighter-rouge {
   border: 1px solid $gallery;
   padding: 0px 3px;
   margin: 0px -3px;
-  color: $apple-blossom;
   border-radius: 2px;
+  color: $code-text-color;
+  background-color: $code-bg-color;
 }
 
 table {
@@ -165,14 +185,13 @@ hr {
   color: $dove-grey;
 }
 
-/* Buttons
-*/
+/* Buttons */
 
 .btn {
   position:relative;
   display:inline-block;
   padding:15px 30px;
-  font-size:1em;
+  font-size:1rem;
   font-weight:300;
   text-transform:uppercase;
   letter-spacing:1px;
@@ -188,19 +207,45 @@ hr {
   background: $light-blue;
   color: #fff;
   font-weight: 700;
-}
+  
+  &:before {
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:15px;
+    height:100%;
+    background: $dark-blue;
+  }
+  
+  &:hover {
+    background: $dark-blue;
+  }
+  
+  + .btn {
+    margin-left: 1rem;
+  }
+  
+  @include large {
+    padding: 0.75rem 2rem;
+  }
 
-.btn:before {
-  content:"";
-  position:absolute;
-  top:0;
-  left:0;
-  width:15px;
-  height:100%;
-  background: $dark-blue;
-}
-.btn:hover {
-  background: $dark-blue;
+  @include medium {
+    padding: 0.6rem 1.5rem;
+    font-size: 0.9rem;
+  }
+  
+  @include small {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 0.9rem;
+
+    + .btn {
+      margin-top: 1rem;
+      margin-left: 0;
+    }
+  }
 }
 
 /* Links */
@@ -232,6 +277,20 @@ a:hover {
  li + li {
    padding-top: 5px;
  }
+}
+
+/* Utils */
+
+.aligned {
+  display: inline-block;
+}
+.to-left {
+  @extend .aligned;
+  float: left;
+}
+.to-right {
+  @extend .aligned;
+  float: right;
 }
 
 @import "layout";

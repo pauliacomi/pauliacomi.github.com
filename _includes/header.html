@@ -1,18 +1,14 @@
-<header>
-    <div class="navbar container">
-        <a id="site-title" class="aligned to-left" href="{{ site.baseurl }}">{{ site.title }}</a>
-        <ul id="navlist" class="aligned to-right navbar-ul">
+<header class="page-header" role="banner">
+    <div class="container">
+        <a id="site-title" href="{{ site.baseurl }}">{{ site.title }}</a>
+        <div class="navbar">
             {% for x in site.navigation %}
-            {% if x.item == "Resume" %}
-            <li class="aligned to-left nav-list"><a target="_blank" href="{{ x.link }}">{{ x.item }}</a>
+                {% if x.item == "Resume" %}
+                    <a class="btn navbar-btn", target="_blank" href="{{ x.link }}">{{ x.item }}</a>
                 {% else %}
-            <li class="aligned to-left nav-list"><a href="{{ x.link }}">{{ x.item }}</a>
+                    <a class="btn navbar-btn", href="{{ x.link }}">{{ x.item }}</a>
                 {% endif %}
-                {% if forloop.last == false %}
-                /
-                {% endif %}
-            </li>
             {% endfor %}
-        </ul>
+        </div>
     </div>
 </header>
