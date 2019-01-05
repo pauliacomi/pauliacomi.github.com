@@ -3,7 +3,7 @@ email: iacomi.paul@gmail.com
 author: Paul Iacomi
 description: >- # this means ignore newlines
   A site I created to serve as a resume and outlet for random thoughts.
-baseurl: ""
+baseurl: "/"
 url: "https://www.pauliacomi.com"
 google_analytics: UA-56200536-1
 
