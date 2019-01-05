@@ -1,0 +1,29 @@
+// Raw colors
+
+$apple-blossom: #ac4142;
+$alto: #271313;
+$bouquet: #aa759f;
+$chelsea-cucumber: #90a959;
+$cod-grey: #151515;
+$dove-grey: #666;
+$light-grey: rgba(0, 0, 0, 0.1);
+$gallery: #eaeaea;
+$grey: #888;
+$gulf-stream: #75b5aa;
+$hippie-blue: #6a9fb5;
+$light-blue: #7ec1df;
+$dark-blue: #42748a;
+$potters-clay: #8f5536;
+$rajah: #f4bf75;
+$raw-sienna: #d28445;
+$silver-chalice: #aaa;
+$white: rgb(243, 240, 240);
+
+// Applied colors
+
+$header-background: $light-grey !default;
+$body-background: $gallery !default;
+$body-foreground: $cod-grey !default;
+$header: $grey !default;
+$blockquote-color: $dove-grey !default;
+$blockquote-border: $dove-grey !default;

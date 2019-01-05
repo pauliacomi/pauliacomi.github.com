@@ -1,18 +1,23 @@
 ---
-layout: page
+layout: default
 title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+# About me
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Chemical engineer turned researcher with a PhD in Material Science, 
+a highly practical outlook and industrial experience in Supply Chain
+and R&D. Enjoy solving problems, automation and obtaining insights from
+large datasets. I have a comprehensive background in the adsorption of 
+gasses and vapours, with a focus on gas storage and separation, as well as
+intimate knowledge of porous coordination polymers, their 
+characterisation, synthesis and avenues of application.
+Some experience in statistical analysis, rheology and colorimetry.
+Familiar with many characterisation techniques,
+such as thermal analysis (microcalorimetry, TGA, DSC),
+spectroscopy (XRD, IR, UV) and other 
+qualitative and quantitative methods (NMR, GC, MS).
+Skilled in programming with Python, C++ and several other languages,
+primarily for high throughput data processing and automation.

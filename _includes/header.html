@@ -1,0 +1,18 @@
+<header>
+    <div class="navbar container">
+        <a id="site-title" class="aligned to-left" href="{{ site.baseurl }}">{{ site.title }}</a>
+        <ul id="navlist" class="aligned to-right navbar-ul">
+            {% for x in site.navigation %}
+            {% if x.item == "Resume" %}
+            <li class="aligned to-left nav-list"><a target="_blank" href="{{ x.link }}">{{ x.item }}</a>
+                {% else %}
+            <li class="aligned to-left nav-list"><a href="{{ x.link }}">{{ x.item }}</a>
+                {% endif %}
+                {% if forloop.last == false %}
+                /
+                {% endif %}
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</header>

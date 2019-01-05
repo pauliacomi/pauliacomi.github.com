@@ -1,0 +1,227 @@
+
+/* Header */
+
+header {
+    background: $header-background;
+    width: 100%;
+    border-bottom: 1px solid $light-grey;
+    padding: 30px 0;
+    margin: 0 0 40px 0;
+}
+
+header #site-title {
+    font-size: 35px;
+    line-height: $base-line-height;
+    display: inline-block;
+    margin: 0 0 0 0;
+    font-weight: bold;
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+    color: $cod-grey;
+    letter-spacing: -1px;
+    -webkit-font-smoothing: antialiased;
+}
+.navbar {
+    padding: 50px 0 50px 0;
+}
+.navbar-ul {
+    display: inline-block;
+    margin: 0;
+    padding: 5px 0 5px 0;
+    margin-left: 20px;
+}
+.nav-list {
+    list-style-type: none;
+    margin: 0 5px 0 10px;
+}
+.aligned {
+    display: inline-block;
+}
+.to-left {
+    @extend .aligned;
+    float: left;
+}
+.to-right {
+    @extend .aligned;
+    float: right;
+}
+
+
+@media screen and (max-width: $on-medium) {
+    .navbar-ul {
+        margin-top: 5px;
+    }
+}
+@media screen and (max-width: $on-small) {
+    .navbar {
+        text-align: center;
+        padding: 50px 0px 0px 0px;
+    }
+    #site-title {
+        width: 100%;
+        float: none;
+    }
+    #navlist {
+        padding: 10px 0 10px 0;
+        margin: 0;
+        display: block;
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    #navlist li.align {
+        display: inline-block;
+    }
+    #navlist li.to-left {
+        float: none;
+    }
+    #navlist li.to-list {
+        margin: 0;
+    }
+}
+
+
+/* Footer */
+
+.site-footer {
+    border-top: 1px solid $light-grey;
+    padding: $spacing-unit 0;
+}
+
+.site-footer ul {
+    padding: 0;
+}
+
+.site-footer ul li {
+    list-style-type: none;
+}
+
+.contact-list,
+.social-media-list {
+    list-style: none;
+    margin-left: 0;
+}
+
+.footer-col-wrapper {
+    @include relative-font-size(0.9375);
+    color: $grey;
+    margin-left: -$spacing-unit / 2;
+}
+
+.footer-col {
+    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+    width:         calc(100% - (#{$spacing-unit} / 2));
+    margin-bottom: $spacing-unit / 2;
+    padding-left: $spacing-unit / 2;
+}
+  
+.footer-col-1,
+.footer-col-2 {
+    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+    width:         calc(50% - (#{$spacing-unit} / 2));
+}
+  
+.footer-col-3 {
+    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+    width:         calc(100% - (#{$spacing-unit} / 2));
+}
+  
+@media screen and (min-width: $on-large) {
+    .footer-col-1 {
+        width: -webkit-calc(35% - (#{$spacing-unit} / 2));
+        width:         calc(35% - (#{$spacing-unit} / 2));
+    }
+    
+    .footer-col-2 {
+        width: -webkit-calc(20% - (#{$spacing-unit} / 2));
+    width:         calc(20% - (#{$spacing-unit} / 2));
+    }
+    
+    .footer-col-3 {
+        width: -webkit-calc(45% - (#{$spacing-unit} / 2));
+        width:         calc(45% - (#{$spacing-unit} / 2));
+    }
+}
+  
+@media screen and (min-width: $on-medium) {
+    .footer-col {
+      float: left;
+    }
+}
+
+/* List pages (post) */
+
+.content-list ul{
+    padding: 0;
+}
+
+.content-list ul li{
+    list-style-type: none;
+}
+
+.post-list-heading {
+    @include relative-font-size(1.75);
+}
+
+.post-list {
+    margin-left: 0;
+    list-style: none;
+  
+    > li {
+      margin-bottom: $spacing-unit;
+    }
+  }
+
+.post-meta {
+    font-size: $small-font-size;
+    color: $grey;
+}
+
+.post-link {
+    display: block;
+    @include relative-font-size(1.5);
+}
+
+/* Posts */
+
+.post-header {
+    margin-bottom: $spacing-unit;
+}
+
+.post-title,
+.post-content h1 {
+    @include relative-font-size(2.625);
+    letter-spacing: -1px;
+    line-height: 1;
+  
+    @media screen and (min-width: $on-large) {
+      @include relative-font-size(2.625);
+    }
+}
+  
+.post-content {
+    margin-bottom: $spacing-unit;
+  
+    h2 {
+      @include relative-font-size(1.75);
+  
+      @media screen and (min-width: $on-large) {
+        @include relative-font-size(2);
+      }
+    }
+  
+    h3 {
+      @include relative-font-size(1.375);
+  
+      @media screen and (min-width: $on-large) {
+        @include relative-font-size(1.625);
+      }
+    }
+  
+    h4 {
+      @include relative-font-size(1.125);
+  
+      @media screen and (min-width: $on-large) {
+        @include relative-font-size(1.25);
+      }
+    }
+  }
