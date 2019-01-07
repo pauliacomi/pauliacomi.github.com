@@ -2,10 +2,15 @@ title: Paul Iacomi
 email: iacomi.paul@gmail.com
 author: Paul Iacomi
 description: >- # this means ignore newlines
-  A site I created to serve as a resume and outlet for random thoughts.
+  Paul Iacomi is a chemical engineer with a PhD in the 
+  field of gas adsorption. His EU-funded research focused on
+  the impact of defects in Metal Organic Frameworks as part of project 
+  DEFNET. He is currently pursuing a career in industry.
+
 baseurl: "/"
 url: "https://www.pauliacomi.com"
 google_analytics: UA-56200536-1
+show_excrepts: false
 
 # social links
 linkedin_username: pauliacomi
@@ -26,5 +31,5 @@ navigation:
     link: "/projects/"
   - item: "Resume"
     link: "/CV.pdf"
-  - item: "Blog"
+  - item: "Thoughts"
     link: "/posts/"

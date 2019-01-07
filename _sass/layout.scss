@@ -12,10 +12,10 @@
         padding: 5rem 0rem 2rem 0rem;
     }
     @include medium {
-        padding: 3rem 0rem;
+        padding: 3rem 0rem 1rem 0rem;
     }
     @include small {
-        padding: 2rem 0rem;
+        padding: 2rem 0rem 1rem 0rem;
     }
 }
 #site-title {
@@ -63,9 +63,11 @@
 .navbar-btn {
     @include large{
         width: 90px;
+        @include relative-font-size(0.9);
     }
     @include medium{
         width: 60px;
+        @include relative-font-size(0.6);
     }
 }
 
@@ -120,8 +122,8 @@
     }
 
     @include large{
-        width: -webkit-calc(30% - (#{$spacing-unit} / 2));
-        width:         calc(30% - (#{$spacing-unit} / 2));
+        width: -webkit-calc(20% - (#{$spacing-unit} / 2));
+        width:         calc(20% - (#{$spacing-unit} / 2));
     }
 }
 
@@ -144,8 +146,61 @@
     }
 
     @include large{
-        width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-        width:         calc(45% - (#{$spacing-unit} / 2));
+        width: -webkit-calc(60% - (#{$spacing-unit} / 2));
+        width:         calc(60% - (#{$spacing-unit} / 2));
+    }
+}
+
+
+/* Main Content */
+
+.main_content {
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+    flex: 1 0 auto;
+    h1 {
+      font-size: 30px;
+      color: $dark-blue;
+    }
+    h2 {
+      font-size: 24px;
+      color: $hippie-blue;
+    }
+    h3 {
+      font-size: 18px;
+    }
+    h4 {
+      font-size: $base-font-size;
+    }
+    h5 {
+      font-size: 12px;
+      text-transform: uppercase;
+      margin: 0 0 5px 0;
+    }
+    h6 {
+      font-size: 12px;
+      text-transform: uppercase;
+      color: #999;
+      margin: 0 0 5px 0;
+    }
+    img {
+        max-width: 100%
+    }
+    .profile-picture {
+        width: $profile-image-size;
+        position: relative;
+        margin: -10px 20px 0px 0px;
+        float: left;
+        border-radius: 10%;
+        p & {
+            padding: 0;
+            margin: 0;
+        }
+        @include small {
+            img {
+                margin-top: -5px;
+            }
+        }
     }
 }
 
@@ -160,7 +215,7 @@
 }
 
 .post-list-heading {
-    @include relative-font-size(1.75);
+    @include relative-font-size(1.1);
 }
 
 .post-list {
@@ -179,7 +234,7 @@
 
 .post-link {
     display: block;
-    @include relative-font-size(1.5);
+    @include relative-font-size(1.2);
 }
 
 /* Posts */
