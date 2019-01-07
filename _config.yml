@@ -7,7 +7,7 @@ description: >- # this means ignore newlines
   the impact of defects in Metal Organic Frameworks as part of project 
   DEFNET. He is currently pursuing a career in industry.
 
-baseurl: "/"
+baseurl: ""
 url: "https://www.pauliacomi.com"
 google_analytics: UA-56200536-1
 show_excrepts: false
