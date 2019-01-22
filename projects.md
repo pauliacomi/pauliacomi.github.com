@@ -11,6 +11,11 @@ as well as conferences I attended and academic exchanges.
 
 ### Publications
 
+* [**Investigating the Effect of Alumina Shaping on the Sorption Properties of Promising Metal-Organic Frameworks**](//dx.doi.org/10.26434/chemrxiv.7597631)
+___Paul Iacomi___, U-Hwang Lee, Anil H. Valenkar, Jong-San Chang, Philip L. Llewellyn
+_Preprint_ **2018**
+DOI: 10.26434/chemrxiv.7597631
+
 * [**Adsorption Contraction Mechanics: Understanding Breathing Energetics in Isoreticular Metal–Organic Frameworks**](//dx.doi.org/10.1021/acs.jpcc.8b04549 )
 Simon Krause, Jack D. Evans, Volodymyr Bon, Irena Senkovska, Sebastian 
 Ehrling, Ulrich Stoeck, Pascal G. Yot, ___Paul Iacomi___, Philip Llewellyn, 
