@@ -11,6 +11,16 @@ as well as conferences I attended and academic exchanges.
 
 ### Publications
 
+<div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0001-5477-1503" href="https://orcid.org/0000-0001-5477-1503" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">orcid.org/0000-0001-5477-1503</a></div>
+
+* [**Towards General Network Architecture Design Criteria for Negative Gas Adsorption Transitions in Ultraporous Frameworks**](//dx.doi.org/10.26434/chemrxiv.7796543)
+Simon Krause, Jack D. Evans, Volodymyr Bon, Irena Senkovska, __Paul Iacomi__, 
+Felicitas Kolbe, Sebastian Ehrling, Erik Troschke, Jürgen Getzschmann, 
+Daniel D. Többens, Alexandra Franz, Dirk Wallacher, Pascal G. Yot, Guillaume Maurin,
+Eike Brunner, Philip L. Llewellyn, François-Xavier Coudert, Stefan Kaskel
+_Preprint_ **2019**
+DOI: 10.26434/chemrxiv.7796543
+
 * [**Investigating the Effect of Alumina Shaping on the Sorption Properties of Promising Metal-Organic Frameworks**](//dx.doi.org/10.1039/C9RA00534J)
 ___Paul Iacomi___, U-Hwang Lee, Anil H. Valenkar, Jong-San Chang, Philip L. Llewellyn
 _RCS Advances_ **2019**, 9, 7128-7135 
