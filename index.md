@@ -20,5 +20,3 @@ adsorption and microcalorimetry.
 I am familiar with a variety of scientific characterisation techniques,
 as well as some experience with R&D and Supply Chain, which you can find 
 out more about [here](/about).
-
-I am currently looking to pursue a career in industrial research.
