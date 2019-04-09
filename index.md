@@ -4,14 +4,19 @@ layout: default
 
 <img class="profile-picture" src="/assets/images/me.jpg" alt="me"/>
 
-**My name is Paul and I am a post-doctoral fellow studying
-gas adsorption in novel materials**
+**My name is Paul and I am a researcher studying gas adsorption in novel materials**
 
-Right now I am researching adsorption-induced flexibility in Metal-Organic 
+I am currently a postdoctoral fellow in the 
+[DAMP](https://anr.fr/Project-ANR-17-CE29-0003) 
+team at the Institut Charles Gerhard Montpellier, researching
+the interplay between mechanical pressure and adsorption in porous materials.
+More details about this ANR-funded project can be found 
+[here](https://anr.fr/Project-ANR-17-CE29-0003).
+
+Previously I was studying adsorption-induced flexibility in Metal-Organic 
 Framework (MOF) crystals using calorimetric techniques in the EnAP team in
-[MADIREL](http://madirel.univ-amu.fr/node/99). More info about this 
-ANR project can be found 
-[here](http://www.agence-nationale-recherche.fr/Project-ANR-17-CE08-0048).
+[MADIREL](http://madirel.univ-amu.fr/node/99). Some background is available  
+[here](http://www.anr.fr/Project-ANR-17-CE08-0048).
 
 My [work](/projects) also includes other aspects of MOFs such as structural
 defects, synthesis and shaping, as well as characterisation through 
