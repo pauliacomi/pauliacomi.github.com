@@ -2,7 +2,6 @@
 layout: default
 ---
 
-<img class="profile-picture" src="/assets/images/me.jpg" alt="me"/>
 
 **My name is Paul and I am a researcher studying gas adsorption in novel materials**
 

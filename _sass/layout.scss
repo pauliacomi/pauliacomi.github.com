@@ -1,21 +1,68 @@
 /* Header */
 
-.page-header {
-    background-color: $header-background;
-    background-image: linear-gradient(150deg, $header-background-2, $header-background);
+// The header can occupy the whole screen
+.header {
+    display: block;
+    position: fixed;
     width: 100%;
-    border-bottom: 1px solid $transparent;
-    padding: 30px 0;
-    margin: 0 0 40px 0;
+    height: 100%;
+    max-width: none;
+    z-index: 900;
+    text-align: center;
+	background: url(../images/background.jpg) top left no-repeat #666666;
+}
+// An instance of the header which leaves room for content
+// Either located left or at the top depending on screen size
+.header-minimized {
+    width: 40%;
 
     @include large {
-        padding: 5rem 0rem 2rem 0rem;
+        width: $header-width;
     }
-    @include medium {
-        padding: 3rem 0rem 1rem 0rem;
+    @include mobile {
+        position: relative;
+        height: auto;
+        width: 100%;
+        padding-top: 5%;
+    }
+}
+// A container for the header which centers content
+// vertically and horizontally
+.header-container{
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 800;
+    top: 50%;
+    transform: translateY(-50%);
+}
+// A gradient overlay for the header image
+.header-overlay {
+    display: block;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(68, 68, 68, 0.1);
+    background-image: -webkit-linear-gradient(140deg, rgba(68, 68, 68, 0.3) 20%, rgba(0, 0, 0, 0.6));
+    background-image: linear-gradient(140deg,rgba(68, 68, 68, 0.3) 20%, rgba(0, 0, 0, 0.6)); 
+}
+.profile-picture {
+    width: $profile-image-size;
+    position: relative;
+    border: 3px solid #ffffff;
+    border-radius: 5%;
+    p & {
+        padding: 0;
+        margin: 0;
     }
     @include small {
-        padding: 2rem 0rem 1rem 0rem;
+        width: $profile-image-size - 50;
+        img {
+            margin-top: -5px;
+        }
     }
 }
 #site-title {
@@ -24,7 +71,7 @@
     margin: 0 0 0 0;
     font-weight: bold;
     font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-    color: $cod-grey;
+    color: $white;
     letter-spacing: -1px;
     -webkit-font-smoothing: antialiased;
 
@@ -45,7 +92,11 @@
     margin: 0;
     padding: 5px 0 5px 0;
     color: $white;
-    
+    transition: visibility 0.2s;
+
+    @include medium{
+        margin-top: 5px;
+    }
     @include small{
         padding: 10px 0 10px 0;
         margin: 0;
@@ -54,110 +105,124 @@
         text-align: center;
         width: 100%;
     }
-    
-    @include medium{
-        margin-top: 5px;
+    @include mobile{
+        display: none;
     }
 }
-
+nav{
+    display: inline-block;
+    position: relative;
+}
 .navbar-btn {
+    margin-top: 10px;
     @include large{
-        width: 90px;
         @include relative-font-size(0.9);
     }
     @include medium{
-        width: 60px;
         @include relative-font-size(0.6);
     }
 }
 
-/* Footer */
+// Mobile menu trigger
 
-.site-footer {
-    border-top: 1px solid $transparent;
-    padding: $spacing-unit 0;
+.nav-trigger {
+    /* critical styles - hide the checkbox input */
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+label[for="nav-trigger"] {
+    /* critical positioning styles */
+    position: fixed;
+    right: 5px; top: 5px;
+    z-index: 2;
+    display: none;
+    @include mobile {
+        display: inline;
+    }
+    
+    /* non-critical apperance styles */
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+.nav-trigger:checked ~ .navbar {
+    display: block;
 }
 
-.site-footer ul {
-    padding: 0;
-}
-
-.site-footer ul li {
-    list-style-type: none;
-}
+/* Contact and social media */
 
 .contact-list,
 .social-media-list {
-    list-style: none;
+    list-style-type: none;
     margin-left: 0;
+}
+.social-media-item{
+    display:inline-block;
+}
+
+/* Footer */
+
+.footer {
+    border-top: 1px solid $transparent;
+    padding: $spacing-unit 10%;
+}
+
+.footer ul {
+    padding: 0;
+}
+
+.footer ul li {
+    list-style-type: none;
 }
 
 .footer-col-wrapper {
-    @include relative-font-size(0.9375);
+    @include relative-font-size(0.85);
     color: $grey;
     margin-left: -$spacing-unit / 2;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 .footer-col {
-    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-    width:         calc(100% - (#{$spacing-unit} / 2));
-    margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
-
     @include small{
         text-align: center;
     }
-    @include medium{
-        float: left;
-    }
-    @include large{
-        float: left;
-    }
 }
-  
-.footer-col-1 {
-    @include medium{
-        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        width:         calc(50% - (#{$spacing-unit} / 2));
-    }
 
-    @include large{
-        width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-        width:         calc(20% - (#{$spacing-unit} / 2));
+.footer-col-1 {
+    flex: 1 0px;
+    @include small{
+        flex: 1 auto;
     }
 }
 
 .footer-col-2 {
-    @include medium{
-        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        width:         calc(50% - (#{$spacing-unit} / 2));
-    }
-
-    @include large{
-        width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-        width:         calc(20% - (#{$spacing-unit} / 2));
-    }
-}
-  
-.footer-col-3 {
-    @include medium{
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
-
-    @include large{
-        width: -webkit-calc(60% - (#{$spacing-unit} / 2));
-        width:         calc(60% - (#{$spacing-unit} / 2));
+    flex: 3 0px;
+    @include small{
+        flex: 1 auto;
     }
 }
 
 
 /* Main Content */
 
-.main_content {
-    width: 100%;
+// Main page content
+// It is defining content parameters as well as 
+// aligning it as a function of size
+.main-content {
+    width: 60%;
+    margin-left: 40%;
     -webkit-font-smoothing: antialiased;
     flex: 1 0 auto;
+
+    @include large{
+        margin-left: $header-width;
+    }
+    @include mobile{
+        margin-left: 0%;
+        width: 100%;
+    }
+
     h1 {
       font-size: 30px;
       color: $dark-blue;
@@ -186,21 +251,21 @@
     img {
         max-width: 100%
     }
-    .profile-picture {
-        width: $profile-image-size;
-        position: relative;
-        margin: -10px 20px 0px 0px;
-        float: left;
-        border-radius: 10%;
-        p & {
-            padding: 0;
-            margin: 0;
-        }
-        @include small {
-            img {
-                margin-top: -5px;
-            }
-        }
+}
+
+// A container for the page content
+.content-container {
+    margin: 0 10%;
+    padding: 50px 0;
+    max-width: 1000px;
+  
+    @include large{
+      max-width: $med-width;
+      transition: 0.3s ease all;
+    }
+  
+    @include medium{
+      max-width: 83%;
     }
 }
 

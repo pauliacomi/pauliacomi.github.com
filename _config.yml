@@ -27,9 +27,11 @@ plugins:
 navigation:
   - item: "About"
     link: "/about/"
-  - item: "Projects"
+  - item: "Research"
     link: "/projects/"
   - item: "Resume"
     link: "/CV.pdf"
+  - item: "Software"
+    link: "/software/"
   - item: "Thoughts"
     link: "/posts/"

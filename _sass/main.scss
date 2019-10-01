@@ -4,6 +4,8 @@
 @import "syntax_highlighting";
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
+/* Responsive layout mixins */
+
 @mixin large {
   @media screen and (min-width: #{$on-large}) {
     @content;
@@ -22,30 +24,24 @@
   }
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  color: $body-foreground;
-  font-size: $base-font-size;
-  line-height: $base-line-height;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+@mixin mobile {
+  @media screen and (max-width: #{$on-small}) {
+    @content;
+  }
 }
 
 /* General & 'Reset' Stuff */
 
-.container {
-  width: 90%;
-  max-width: 1000px;
-  margin: 0 auto;
-
-  @include large{
-    max-width: $med-width;
-    transition: 0.3s ease all;
-  }
-
-  @include medium{
-    max-width: 83%;
-  }
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: $body-foreground;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 section {
@@ -53,38 +49,10 @@ section {
   margin: 0 0 20px 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  margin: 0 0 20px;
-}
-
-li {
-  line-height: $contracted-line-height ;
-}
-
-/* Clearfix */
-
-.cf:before, .cf:after {
-  content:"";
-  display:table;
-}
-
-.cf:after {
-  clear:both;
-}
-
-.cf {
-  zoom:1;
-}
-
-body {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
-
 /* Headings */
 
 h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 20px;
   font-weight: normal;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   color: $header;
@@ -96,6 +64,10 @@ h1, h2, h3, h4, h5, h6 {
 dt {
   font-style: italic;
   font-weight: bold;
+}
+
+li {
+  line-height: $contracted-line-height ;
 }
 
 ul li {
@@ -181,30 +153,30 @@ hr {
   color: #fff;
   font-weight: 700;
   
-  &:before {
-    content:"";
-    position:absolute;
-    top:0;
-    left:0;
-    width:15px;
-    height:100%;
-    background: $dark-blue;
-  }
+  // &:before {
+  //   content:"";
+  //   position:absolute;
+  //   top:0;
+  //   left:0;
+  //   width:15px;
+  //   height:100%;
+  //   background: $dark-blue;
+  // }
   
   &:hover {
     background: $dark-blue;
   }
   
-  + .btn {
-    margin-left: 1rem;
-  }
+  // + .btn {
+  //   margin-left: 1rem;
+  // }
   
   @include large {
     padding: 0.75rem 2rem;
   }
 
   @include medium {
-    padding: 0.6rem 1.5rem;
+    padding: 0.65rem 1.5rem;
     font-size: 0.9rem;
   }
   
@@ -232,13 +204,13 @@ a:hover {
 
 /* Icons */
 
-.grey {
-  color: $grey;
+.white {
+  color: $white;
 }
 
 .svg-icon {
-   width: 16px;
-   height: 18px;
+   width: 40px;
+   height: 40px;
    display: inline-block;
    fill: currentColor;
    padding-right: 5px;
@@ -251,18 +223,6 @@ a:hover {
  }
 }
 
-/* Utils */
-
-.aligned {
-  display: inline-block;
-}
-.to-left {
-  @extend .aligned;
-  float: left;
-}
-.to-right {
-  @extend .aligned;
-  float: right;
-}
+/* Specific layout */
 
 @import "layout";
