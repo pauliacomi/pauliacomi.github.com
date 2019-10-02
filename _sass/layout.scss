@@ -9,7 +9,7 @@
     max-width: none;
     z-index: 900;
     text-align: center;
-	background: url(../images/background.jpg) top left no-repeat #666666;
+	background: url(../images/background.jpg) top left no-repeat #212657;
 }
 // An instance of the header which leaves room for content
 // Either located left or at the top depending on screen size
@@ -261,7 +261,6 @@ label[for="nav-trigger"] {
   
     @include large{
       max-width: $med-width;
-      transition: 0.3s ease all;
     }
   
     @include medium{

@@ -144,10 +144,7 @@ hr {
   border:none;
   border-radius:0;
   text-decoration:none;
-  -webkit-transition:.25s;
-  -moz-transition:.25s;
-  -o-transition:.25s;
-  transition:.25s;
+  transition: background-color .25s;
   white-space:inherit;
   background: $light-blue;
   color: #fff;
@@ -164,12 +161,8 @@ hr {
   // }
   
   &:hover {
-    background: $dark-blue;
+    background-color: $dark-blue;
   }
-  
-  // + .btn {
-  //   margin-left: 1rem;
-  // }
   
   @include large {
     padding: 0.75rem 2rem;
