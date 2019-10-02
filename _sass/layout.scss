@@ -212,8 +212,6 @@ label[for="nav-trigger"] {
 .main-content {
     width: 60%;
     margin-left: 40%;
-    -webkit-font-smoothing: antialiased;
-    flex: 1 0 auto;
 
     @include large{
         margin-left: $header-width;
@@ -222,6 +220,11 @@ label[for="nav-trigger"] {
         margin-left: 0%;
         width: 100%;
     }
+
+    // Stacked content/footer
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 
     h1 {
       font-size: 30px;
@@ -258,6 +261,10 @@ label[for="nav-trigger"] {
     margin: 0 10%;
     padding: 50px 0;
     max-width: 1000px;
+
+    // top
+    flex: 1 auto;
+    flex-grow: 1;
   
     @include large{
       max-width: $med-width;
