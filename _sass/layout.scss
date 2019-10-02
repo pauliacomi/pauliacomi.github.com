@@ -53,23 +53,22 @@
     -webkit-font-smoothing: antialiased;
 
     @include large {
-        font-size: 3.25rem;
+        @include relative-font-size(3);
     }
     @include medium {
-        font-size: 2.25rem;
+        @include relative-font-size(2);
     }
     @include small {
         text-align: center;
         width: 100%;
         float: none;
-        font-size: 1.75rem;
+        @include relative-font-size(1.5);
     }
 }
 .navbar {
     margin: 0;
     padding: 5px 0 5px 0;
     color: $white;
-    transition: visibility 0.2s;
 
     @include medium{
         margin-top: 5px;
