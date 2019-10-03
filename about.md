@@ -45,7 +45,3 @@ particularly in regards to high throughput data processing, extraction
 of key performance indicators from large datasets and automation.
 I am self taught in Python and C++ and know my way around many other
 IT areas.
-
-Originally from Tulcea, Romania, I have also lived in Manchester, UK during
-my undergraduate studies and then in Marseille, France throughout my PhD. I 
-tend to consider myself just a citizen of Planet Earth.
