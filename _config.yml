@@ -30,7 +30,7 @@ navigation:
   - item: "About"
     link: "/about/"
   - item: "Research"
-    link: "/projects/"
+    link: "/academic/"
   - item: "Resume"
     link: "/CV.pdf"
   - item: "Software"

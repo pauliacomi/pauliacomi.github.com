@@ -4,7 +4,7 @@ layout: default
 
 # Hi
 
-**My name is Paul and I am a researcher studying gas adsorption in novel materials**
+**My name is Paul and I am a researcher studying novel adsorbent materials**
 
 I am currently a postdoctoral fellow in the 
 [DAMP](https://anr.fr/Project-ANR-17-CE29-0003) 

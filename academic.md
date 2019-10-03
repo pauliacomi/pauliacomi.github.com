@@ -1,37 +1,39 @@
 ---
 layout: default
-title: Projects and Work
-permalink: /projects/
+title: Academic
+permalink: /academic/
 ---
 
 # Academic
 
-A list of peer reviewed publications I have written or co-authored,
-as well as conferences I attended and academic exchanges.
+A list of peer reviewed publications I have written or co-authored, as well as conferences
+I attended and academic exchanges. For more info, follow the ORCID or Google Scholar links
+in the sidebar.
 
 ### Publications
 
-<div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0001-5477-1503" href="https://orcid.org/0000-0001-5477-1503" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">orcid.org/0000-0001-5477-1503</a></div>
+* [**pyGAPS: a Python-based framework for adsorption isotherm processing and material characterisation**](//doi.org/10.1007/s10450-019-00168-5)
+Paul Iacomi, Philip L Llewellyn _Adsorption_ **2019**
 
-* [**Towards General Network Architecture Design Criteria for Negative Gas Adsorption Transitions in Ultraporous Frameworks**](//dx.doi.org/10.26434/chemrxiv.7796543)
-Simon Krause, Jack D. Evans, Volodymyr Bon, Irena Senkovska, __Paul Iacomi__, 
-Felicitas Kolbe, Sebastian Ehrling, Erik Troschke, Jürgen Getzschmann, 
-Daniel D. Többens, Alexandra Franz, Dirk Wallacher, Pascal G. Yot, Guillaume Maurin,
-Eike Brunner, Philip L. Llewellyn, François-Xavier Coudert, Stefan Kaskel
-_Preprint_ **2019**
-DOI: 10.26434/chemrxiv.7796543
+* [**Role of structural defects in the adsorption and separation of C3 hydrocarbons in Zr-fumarate-MOF (MOF-801)**](//doi.org/10.1021/acs.chemmater.9b02322)
+Paul Iacomi, Filip Formalik, João Marreiros, Jin Shang, Justyna Rogacka, 
+Alexander Mohmeyer, Peter Behrens, Rob Ameloot, Bogdan Kuchta, Philip L Llewellyn
+_Chemistry of Materials_ **2019**
 
-* [**Investigating the Effect of Alumina Shaping on the Sorption Properties of Promising Metal-Organic Frameworks**](//dx.doi.org/10.1039/C9RA00534J)
+* [**Towards General Network Architecture Design Criteria for Negative Gas Adsorption Transitions in Ultraporous Frameworks**](//doi.org/10.1038/s41467-019-11565-3)
+S. Krause, J. D. Evans, V. Bon, I. Senkovska, __P. Iacomi__, F. Kolbe, S. Ehrling, 
+E. Troschke, J. Getzschmann, D. D. Többens, A. Franz, D. Wallacher, P. G. Yot, 
+G. Maurin, E. Brunner, P. L. Llewellyn, F. X. Coudert, S. Kaskel
+_Nature Communications_ **2019**, 10, 3632 
+
+* [**Investigating the Effect of Alumina Shaping on the Sorption Properties of Promising Metal-Organic Frameworks**](//doi.org/10.1039/C9RA00534J)
 ___Paul Iacomi___, U-Hwang Lee, Anil H. Valenkar, Jong-San Chang, Philip L. Llewellyn
-_RCS Advances_ **2019**, 9, 7128-7135 
-DOI: 10.1039/C9RA00534J
+_RCS Advances_ **2019**, 9, 7128-7135
 
-* [**Adsorption Contraction Mechanics: Understanding Breathing Energetics in Isoreticular Metal–Organic Frameworks**](//dx.doi.org/10.1021/acs.jpcc.8b04549 )
-Simon Krause, Jack D. Evans, Volodymyr Bon, Irena Senkovska, Sebastian 
-Ehrling, Ulrich Stoeck, Pascal G. Yot, ___Paul Iacomi___, Philip Llewellyn, 
-Guillaume Maurin, François-Xavier Coudert, and Stefan Kaskel
+* [**Adsorption Contraction Mechanics: Understanding Breathing Energetics in Isoreticular Metal–Organic Frameworks**](//doi.org/10.1021/acs.jpcc.8b04549)
+S. Krause, J. D. Evans, V. Bon, I. Senkovska, S. Ehrling, U. Stoeck, 
+P. G. Yot, ___P. Iacomi___, P. Llewellyn, G. Maurin, F. X. Coudert, S. Kaskel
 _The Journal of Physical Chemistry C_ **2018** 122 (33), 19171-19179
-DOI: 10.1021/acs.jpcc.8b04549 
 
 ### Conference presentations
 
@@ -53,7 +55,6 @@ ___Paul Iacomi___, Philip L. Llewellyn
 _Using calorimetry to further understand the phenomenon of 
 “Negative Gas Adsorption” in DUT-49 and its family of materials_
 ___Paul Iacomi___, Simon Krause, Stefan Kaskel, Philip L. Llewellyn
-
 * **EuroMOF**, Delft, Netherlands, November 2017, Poster presentation:
 _Insights obtained through bulk processing of
 isotherm and calorimetry data and their
@@ -96,24 +97,3 @@ In 2017 spent 6 weeks in the Center for Surface Chemistry
 and Catalysis in Leuven, Belgium, focusing on MOF synthesis and 
 defect generation, with several prototypical materials such as
 UiO-66 and ZIF-8.
-
-# Programming
-
-I enjoy programming as well as automation, and have worked extensively
-in Python, C++, Matlab as well as some experience with Webdesign.
-Below are some of my projects.
-
-### pyGAPS
-
-[pyGAPS](https://github.com/pauliacomi/pyGAPS) is an adsorption 
-isotherm processing and fitting framework written in Python 3.
-It is open source and extensively documented. Some of the capabilities are:
-routine material characterisation (specific surface area, pore volume,
-pore size distribution), isotherm model fitting as well as multicomponent
-adsorption prediction using IAST.
-
-### This website
-
-My [personal website](https://github.com/pauliacomi/pauliacomi.github.com).
-A static site using GitHub Pages, Jekyll and a theme adapted from the
-open source GitHub Cayman theme. Nothing too fancy.
