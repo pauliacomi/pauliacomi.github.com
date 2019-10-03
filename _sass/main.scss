@@ -4,6 +4,9 @@
 @import "syntax_highlighting";
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
+/* Main CSS file
+   ========================================================================== */
+
 /* Responsive layout mixins */
 
 @mixin large {
@@ -30,15 +33,17 @@
   }
 }
 
-/* General & 'Reset' Stuff */
+/* General Stuff */
 
 body {
-  margin: 0;
-  padding: 0;
+
+  // will be full height
   height: 100vh;
+
   // sidebar + content flexbox
   display: flex;
 
+  // on mobile stack vertically
   @include mobile {
     flex-direction: column;
   }
@@ -223,6 +228,7 @@ a:hover {
  }
 }
 
-/* Specific layout */
+/* Specific layout
+   ========================================================================== */
 
 @import "layout";

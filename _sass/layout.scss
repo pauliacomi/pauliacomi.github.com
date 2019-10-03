@@ -1,11 +1,13 @@
 /* Header */
 
-// The header is a left part of a flexbox
+// The header is the left/top part of a flexbox
 .header {
     flex: 2;
     display: flex;
     align-items: center;
     text-align: center;
+
+    // An image which is covered by a gradient
     background:
     linear-gradient(
         140deg,
@@ -13,9 +15,11 @@
         rgba(0, 0, 0, 0.6)),
     url(../images/background.jpg) top left no-repeat #212657;
 
+    // limit maximum size on large screens
     @include large {
         max-width: $header-width;
     }
+    // padding on top on small screens
     @include mobile {
         padding-top: 5%;
     }
@@ -28,13 +32,8 @@
 }
 .profile-picture {
     width: $profile-image-size;
-    position: relative;
     border: 3px solid #ffffff;
     border-radius: 5%;
-    p & {
-        padding: 0;
-        margin: 0;
-    }
     @include small {
         width: $profile-image-size - 50;
         img {
@@ -45,12 +44,10 @@
 #site-title {
     line-height: $base-line-height;
     display: inline-block;
-    margin: 0 0 0 0;
     font-weight: bold;
     font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
     color: $white;
     letter-spacing: -1px;
-    -webkit-font-smoothing: antialiased;
 
     @include large {
         @include relative-font-size(3);
@@ -59,16 +56,11 @@
         @include relative-font-size(2);
     }
     @include small {
-        text-align: center;
-        width: 100%;
-        float: none;
         @include relative-font-size(1.5);
     }
 }
 .navbar {
-    margin: 0;
     padding: 5px 0 5px 0;
-    color: $white;
 
     @include medium{
         margin-top: 5px;
@@ -84,10 +76,6 @@
     @include mobile{
         display: none;
     }
-}
-nav{
-    display: inline-block;
-    position: relative;
 }
 .navbar-btn {
     margin-top: 10px;
