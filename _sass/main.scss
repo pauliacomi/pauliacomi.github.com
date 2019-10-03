@@ -35,9 +35,13 @@
 body {
   margin: 0;
   padding: 0;
+  height: 100vh;
   // sidebar + content flexbox
   display: flex;
-  flex-flow: row wrap;
+
+  @include mobile {
+    flex-direction: column;
+  }
 
   // other attributes
   color: $body-foreground;

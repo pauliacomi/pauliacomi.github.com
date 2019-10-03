@@ -8,8 +8,10 @@
   {%- include header.html -%}
 
   <div class="main-content" aria-label="Content">
-    <div class="content-container">
-    {{ content }}
+    <div class="outer-container">
+      <div class="inner-container">
+        {{ content }}
+      </div>
     </div>
     {%- include footer.html -%}
   </div>

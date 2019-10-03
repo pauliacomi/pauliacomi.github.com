@@ -188,11 +188,13 @@ label[for="nav-trigger"] {
 .main-content {
 
     flex: 3;
+    overflow: auto;
 
     @include mobile{
         margin-left: 0%;
         width: 100%;
         flex: 1 auto;
+        overflow: visible;
     }
 
     // Stacked content/footer
@@ -231,10 +233,12 @@ label[for="nav-trigger"] {
 }
 
 // A container for the page content
-.content-container {
+.outer-container {
     margin: 0 10%;
     padding: 50px 0;
     max-width: 1000px;
+    display: flex;
+    align-items: center;
 
     // top
     flex: 1 auto;
@@ -247,6 +251,10 @@ label[for="nav-trigger"] {
     @include medium{
       max-width: 83%;
     }
+}
+
+.inner-container {
+    flex: 1 auto;
 }
 
 /* List pages (post) */
