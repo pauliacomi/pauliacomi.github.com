@@ -204,12 +204,13 @@ a:hover {
 }
 
 .svg-icon {
-   width: 40px;
-   height: 40px;
    display: inline-block;
+   width: 2em;
+   height: 2em;
+   stroke: currentColor;
+   stroke-width: 0;
    fill: currentColor;
-   padding-right: 5px;
-   vertical-align: text-bottom;
+   padding-right: 10px;
 }
 
 .social-media-list {
