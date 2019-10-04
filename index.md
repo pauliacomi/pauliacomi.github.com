@@ -1,27 +1,21 @@
 ---
 layout: default
+title: Main
 ---
 
-# Hi
+# Hello
 
-**My name is Paul and I am a researcher studying novel adsorbent materials**
+### I am a researcher studying novel adsorbent materials
 
-I am currently a postdoctoral fellow in the 
-[DAMP](https://anr.fr/Project-ANR-17-CE29-0003) 
-team at the Institut Charles Gerhard Montpellier, researching
-the interplay between mechanical pressure and adsorption in porous materials.
-More details about this ANR-funded project can be found 
-[here](https://anr.fr/Project-ANR-17-CE29-0003).
+My current research focuses on the study of porous materials for gas adsorption and
+separation. In particular I am interested in how flexible metal-organic frameworks react
+to external stimuli such as pressure, temperature and guests. To this end, I am working in
+the [DAMP](https://www.icgm.fr/damp) team at the Institut Charles Gerhard Montpellier,
+with an ANR-funded [project](https://anr.fr/Project-ANR-17-CE29-0003) characterizing the
+interplay between mechanical pressure and adsorption in porous materials.
 
-Previously I was studying adsorption-induced flexibility in Metal-Organic 
-Framework (MOF) crystals using calorimetric techniques in the EnAP team in
-[MADIREL](http://madirel.univ-amu.fr/node/99). Some background is available  
-[here](http://www.anr.fr/Project-ANR-17-CE08-0048).
-
-My [work](/projects) also includes other aspects of MOFs such as structural
-defects, synthesis and shaping, as well as characterisation through 
-adsorption and microcalorimetry.
-
-I am familiar with a variety of scientific characterisation techniques,
-as well as some experience with R&D and Supply Chain, which you can find 
-out more about [here](/about).
+Previously I was studying [adsorption-induced flexibility](http://www.anr.fr/Project-ANR-17-CE08-0048)
+using calorimetric techniques in the EnAP team in [MADIREL](http://madirel.univ-amu.fr/node/99),
+where I completed my PhD. My [work](/academic) also includes other aspects of MOFs such as
+structural defects, synthesis and shaping. I also develop open-source [software](/software)
+for various scientific applications. Some more stuff about me is [here](/about).
