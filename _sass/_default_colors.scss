@@ -1,35 +1,35 @@
 // Raw colors
 
-$alto: #271313;
-$bouquet: #aa759f;
-$chelsea-cucumber: #90a959;
-$cod-grey: #151515;
-$dove-grey: #666;
+$alto: rgb(37, 18, 18);
+$bouquet: rgb(170, 117, 159);
+$chelsea-cucumber: rgb(144, 170, 90);
+$cod-grey: rgb(21, 21, 21);
+$dove-grey: rgb(102, 102, 102);
 $transparent: rgba(0, 0, 0, 0.1);
-$gallery: #eaeaea;
-$grey: #888;
-$gulf-stream: #447a71;
-$hippie-blue: #558fa8;
-$light-blue: #7ec1df;
-$dark-blue: #42748a;
-$potters-clay: #8f5536;
-$rajah: #c27812;
-$raw-sienna: #d8670b;
-$silver-chalice: #aaa;
+$gallery: rgb(234, 234, 234);
+$grey: rgb(136, 136, 136);
+$gulf-stream: rgb(68, 122, 113);
+$hippie-blue: rgb(85, 143, 168);
+$light-blue: rgb(126, 193, 223);
+$dark-blue: rgb(66, 116, 138);
+$potters-clay: rgb(143, 85, 54);
+$rajah: rgb(194, 120, 18);
+$raw-sienna: rgb(216, 103, 11);
+$silver-chalice: rgb(170, 170, 170);
 $white: rgb(243, 240, 240);
-$test-blue-1: hsl(200, 21%, 84%);
-$test-blue-2: hsl(200, 26%, 91%);
+$test-blue-1: rgb(205, 217, 222);
+$test-blue-2: rgb(226, 234, 238);
 
 // Chosen pallette
 
-$background-light: $gallery;
+$background-light: rgba(228, 226, 227, 0.712);
 $background-dark: $dove-grey;
 
 $text-light: $gallery;
 $text-dark: $dove-grey;
 
-$accent-light: $light-blue;
-$accent-medium: $hippie-blue;
+$accent-light: $hippie-blue;
+$accent-medium: rgb(15, 82, 113);
 $accent-dark: $dark-blue;
 
 $accent-bright: $white;
@@ -46,7 +46,7 @@ $header-color: $grey !default;
 $header-background: $test-blue-2 !default;
 
 // Buttons
-$btn-background: $accent-light !default;
+$btn-background: $accent-medium !default;
 $btn-hover: $accent-dark !default;
 $btn-text: $white !default;
 

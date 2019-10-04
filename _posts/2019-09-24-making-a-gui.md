@@ -20,3 +20,30 @@ delete all your work), but also written in Python. There's no better way to lear
 standing on the shoulders of giants.
 
 Work in progress...
+
+
+```python
+import warnings
+import pygaps
+from PySide2 import QtCore
+
+class LangmuirModel():
+
+    def __init__(self, isotherm, parent=None):
+
+        self._isotherm = isotherm
+
+        # Properties
+        adsorbate = pygaps.Adsorbate.find(self._isotherm.adsorbate)
+        self.cross_section = adsorbate.get_prop("cross_sectional_area")
+
+        # Loading and pressure
+        self.loading = self._isotherm.loading(branch='ads',
+                                              loading_unit='mol',
+                                              loading_basis='molar')
+        self.pressure = self._isotherm.pressure(branch='ads',
+                                                pressure_mode='relative')
+
+        self.minimum = None
+        self.maximum = None
+```
