@@ -191,15 +191,15 @@ label[for="nav-trigger"] {
     flex-direction: column;
 
     h1 {
-      font-size: 30px;
-      color: $dark-blue;
+        @include relative-font-size(3);
+        color: $dark-blue;
     }
     h2 {
-      font-size: 24px;
-      color: $hippie-blue;
+        @include relative-font-size(2.2);
+        color: $hippie-blue;
     }
     h3 {
-      font-size: 18px;
+        @include relative-font-size(1.8);
     }
     h4 {
       font-size: $base-font-size;
