@@ -1,21 +1,22 @@
 $med-width: 400;
 
-$spacing-unit:      30px !default;
-$base-font-size:    1em !default;
-$base-font-weight:  400 !default;
-$small-font-size:   $base-font-size * 0.875 !default;
+// Font units
+$spacing-unit: 30px !default;
+$base-font-size: 1em !default;
+$base-font-weight: 400 !default;
+$small-font-size: $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
 $contracted-line-height: 0.9 * $base-line-height !default;
 $profile-image-size: 150px;
 
 // Width of the content area
-$header-width:     500px !default;
-$content-width:    1200px !default;
+$header-width: 500px !default;
+$content-width: 1200px !default;
 
-$on-small:         700px !default;
-$on-medium:        900px !default;
-$on-large:         $content-width !default;
+$on-small: 700px !default;
+$on-medium: 900px !default;
+$on-large: $content-width !default;
 
 @mixin relative-font-size($ratio) {
-    font-size: $base-font-size * $ratio;
+  font-size: $base-font-size * $ratio;
 }

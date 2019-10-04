@@ -2,7 +2,7 @@
 @import "vars";
 @import "default_colors";
 @import "syntax_highlighting";
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
 
 /* Main CSS file
    ========================================================================== */
@@ -36,7 +36,6 @@
 /* General Stuff */
 
 body {
-
   // will be full height
   height: 100vh;
 
@@ -62,7 +61,12 @@ section {
 
 /* Headings */
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0 0 20px;
   font-weight: normal;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
@@ -78,7 +82,7 @@ dt {
 }
 
 li {
-  line-height: $contracted-line-height ;
+  line-height: $contracted-line-height;
 }
 
 ul li {
@@ -144,23 +148,23 @@ hr {
 /* Buttons */
 
 .btn {
-  position:relative;
-  display:inline-block;
-  padding:15px 30px;
-  font-size:1rem;
-  font-weight:300;
-  text-transform:uppercase;
-  letter-spacing:1px;
-  line-height:1.2;
-  border:none;
-  border-radius:0;
-  text-decoration:none;
-  transition: background-color .25s;
-  white-space:inherit;
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 1rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  border: none;
+  border-radius: 0;
+  text-decoration: none;
+  transition: background-color 0.25s;
+  white-space: inherit;
   background: $light-blue;
   color: #fff;
   font-weight: 700;
-  
+
   // &:before {
   //   content:"";
   //   position:absolute;
@@ -170,11 +174,11 @@ hr {
   //   height:100%;
   //   background: $dark-blue;
   // }
-  
+
   &:hover {
     background-color: $dark-blue;
   }
-  
+
   @include large {
     padding: 0.75rem 2rem;
   }
@@ -183,7 +187,7 @@ hr {
     padding: 0.65rem 1.5rem;
     font-size: 0.9rem;
   }
-  
+
   @include small {
     display: block;
     padding: 0.75rem;
@@ -213,19 +217,19 @@ a:hover {
 }
 
 .svg-icon {
-   display: inline-block;
-   width: 2em;
-   height: 2em;
-   stroke: currentColor;
-   stroke-width: 0;
-   fill: currentColor;
-   padding-right: 10px;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  stroke: currentColor;
+  stroke-width: 0;
+  fill: currentColor;
+  padding-right: 10px;
 }
 
 .social-media-list {
- li + li {
-   padding-top: 5px;
- }
+  li + li {
+    padding-top: 5px;
+  }
 }
 
 /* Specific layout
