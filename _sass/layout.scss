@@ -28,7 +28,7 @@
 }
 .profile-picture {
   width: $profile-image-size;
-  border: 3px solid #ffffff;
+  border: 3px solid $accent-bright;
   border-radius: 5%;
   @include small {
     width: $profile-image-size - 50;
@@ -42,7 +42,7 @@
   display: inline-block;
   font-weight: bold;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: $white;
+  color: $accent-bright;
   letter-spacing: -1px;
 
   @include large {
@@ -137,11 +137,12 @@ label[for="nav-trigger"] {
 }
 
 .footer-col-wrapper {
-  @include relative-font-size(0.85);
-  color: $grey;
+  color: $background-dark;
   margin-left: -$spacing-unit / 2;
   display: flex;
   flex-flow: row wrap;
+  max-width: $content-inner-width;
+  @include relative-font-size(0.85);
 }
 
 .footer-col {
@@ -187,11 +188,11 @@ label[for="nav-trigger"] {
 
   h1 {
     @include relative-font-size(3);
-    color: $dark-blue;
+    color: $accent-dark;
   }
   h2 {
     @include relative-font-size(2.2);
-    color: $hippie-blue;
+    color: $accent-medium;
   }
   h3 {
     @include relative-font-size(1.8);
@@ -207,7 +208,7 @@ label[for="nav-trigger"] {
   h6 {
     @include relative-font-size(0.9);
     text-transform: uppercase;
-    color: #999;
+    color: $text-dark;
     margin: 0 0 5px 0;
   }
   img {
@@ -219,17 +220,13 @@ label[for="nav-trigger"] {
 .outer-container {
   margin: 0 10%;
   padding: 50px 0;
-  max-width: 1000px;
+  max-width: $content-inner-width;
   display: flex;
   align-items: center;
 
   // top
   flex: 1 auto;
   flex-grow: 1;
-
-  @include large {
-    max-width: $med-width;
-  }
 
   @include medium {
     max-width: 83%;
@@ -265,7 +262,7 @@ label[for="nav-trigger"] {
 
 .post-meta {
   font-size: $small-font-size;
-  color: $grey;
+  color: $text-dark;
 }
 
 .post-link {

@@ -20,15 +20,40 @@ $white: rgb(243, 240, 240);
 $test-blue-1: hsl(200, 21%, 84%);
 $test-blue-2: hsl(200, 26%, 91%);
 
+// Chosen pallette
+
+$background-light: $gallery;
+$background-dark: $dove-grey;
+
+$text-light: $gallery;
+$text-dark: $dove-grey;
+
+$accent-light: $light-blue;
+$accent-medium: $hippie-blue;
+$accent-dark: $dark-blue;
+
+$accent-bright: $white;
+$accent-dull: $cod-grey;
+
 // Applied colors
 
-$header-background: $test-blue-2 !default;
-$header-background-2: $test-blue-1 !default;
-$body-background: $gallery !default;
-$body-foreground: $dove-grey !default;
-$header: $grey !default;
-$blockquote-color: $dove-grey !default;
-$blockquote-border: $dove-grey !default;
+// Body
+$body-background: $background-light !default;
+$body-foreground: $background-dark !default;
 
+// Body
+$header-color: $grey !default;
+$header-background: $test-blue-2 !default;
+
+// Buttons
+$btn-background: $accent-light !default;
+$btn-hover: $accent-dark !default;
+$btn-text: $white !default;
+
+// Quotes
+$blockquote-color: $background-dark !default;
+$blockquote-border: $background-dark !default;
+
+// Code highlighting
 $code-bg-color: #f3f6fa !default;
 $code-text-color: #567482 !default;

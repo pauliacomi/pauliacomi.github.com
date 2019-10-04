@@ -48,6 +48,7 @@ body {
   }
 
   // other attributes
+  background: $body-background;
   color: $body-foreground;
   font-size: $base-font-size;
   line-height: $base-line-height;
@@ -70,7 +71,7 @@ h6 {
   margin: 0 0 20px;
   font-weight: normal;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: $header;
+  color: $header-color;
   letter-spacing: -0.03em;
 }
 
@@ -98,7 +99,8 @@ blockquote {
 /* Code Highlighting */
 
 pre {
-  background: $white;
+  background: $code-bg-color;
+  color: $code-text-color;
   border: 1px solid $cod-grey;
   padding: 10px;
   font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
@@ -107,18 +109,15 @@ pre {
   word-wrap: normal;
   overflow: auto;
   overflow-y: hidden;
-  color: $code-text-color;
-  background-color: $code-bg-color;
 }
 
 code.highlighter-rouge {
-  background: $white;
+  background: $code-bg-color;
+  color: $code-text-color;
   border: 1px solid $gallery;
   padding: 0px 3px;
   margin: 0px -3px;
   border-radius: 2px;
-  color: $code-text-color;
-  background-color: $code-bg-color;
 }
 
 /* Tables */
@@ -161,22 +160,12 @@ hr {
   text-decoration: none;
   transition: background-color 0.25s;
   white-space: inherit;
-  background: $light-blue;
-  color: #fff;
+  background: $btn-background;
+  color: $btn-text;
   font-weight: 700;
 
-  // &:before {
-  //   content:"";
-  //   position:absolute;
-  //   top:0;
-  //   left:0;
-  //   width:15px;
-  //   height:100%;
-  //   background: $dark-blue;
-  // }
-
   &:hover {
-    background-color: $dark-blue;
+    background-color: $btn-hover;
   }
 
   @include large {
@@ -203,7 +192,7 @@ hr {
 /* Links */
 
 a {
-  color: $light-blue;
+  color: $accent-light;
   text-decoration: none;
 }
 a:hover {
@@ -213,7 +202,7 @@ a:hover {
 /* Icons */
 
 .white {
-  color: $white;
+  color: $accent-bright;
 }
 
 .svg-icon {
