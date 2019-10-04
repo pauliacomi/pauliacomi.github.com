@@ -91,7 +91,7 @@ Member of the organisation board for the DocMOF 2018 conference in
 Raitenhaslach, Germany. This was the first PhD student organised
 symposium on Metal-Organic Frameworks and a massive success, with
 over 100 attendees from 70 institutions and 10 countries. I was
-also responsible for the event website: <http://www.docmof.com>.
+also responsible for the event website.
 
 In 2017 spent 6 weeks in the Center for Surface Chemistry 
 and Catalysis in Leuven, Belgium, focusing on MOF synthesis and 
