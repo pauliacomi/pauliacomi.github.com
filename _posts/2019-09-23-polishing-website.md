@@ -23,7 +23,7 @@ needed. I was unhappy with the `<div>`-heavy layouts of the past and switched th
 a simpler, cleaner `flexbox` layout (at least until `css-grid` gets commonplace). Some
 changes were made to the responsiveness of the website, to cover all the use cases.
 
-I was also unhappy with using a icon-based font like [Font Awesome](https://fontawesome.com)
+I was also unhappy with using an icon-based font like [Font Awesome](https://fontawesome.com)
 or [Academicons](https://jpswalsh.github.io/academicons/). They are great for many things,
 but loading tens of glyphs in order to display the site is not the fastest. Instead, I
 used Icomoon's [web app](https://icomoon.io/app/) to select the exact icons needed, then

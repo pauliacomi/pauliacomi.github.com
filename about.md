@@ -13,7 +13,7 @@ and R&D. Enjoy solving problems, automation and obtaining insights from
 large datasets.
 
 I have a comprehensive background in the adsorption of 
-gasses and vapours, with a focus on gas storage and separation, as well as
+gases and vapours, with a focus on gas storage and separation, as well as
 intimate knowledge of porous coordination polymers, their 
 characterisation, synthesis and avenues of application.
 Some experience in statistical analysis, rheology and colorimetry.

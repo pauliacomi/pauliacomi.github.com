@@ -6,7 +6,7 @@ permalink: /software/
 # Programming
 
 I enjoy programming as well as automation, and have worked extensively
-in Python, C++, Matlab as well as some experience with Webdesign.
+in Python, C++, Matlab as well as some experience with web design.
 Below are some of my projects.
 
 ### pyGAPS
