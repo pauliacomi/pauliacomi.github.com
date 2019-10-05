@@ -3,10 +3,12 @@ layout: default
 title: Software
 permalink: /software/
 ---
-# Programming
+# Software
 
-I enjoy programming as well as automation, and have worked extensively in Python, C++,
-Matlab as well as some experience with web design. Below are some of my projects.
+I enjoy letting computers do the work for me, and have worked extensively in Python and
+C++ to make this happen. In the hopes that the things I made can also help others, they
+are released as open source code. I also dabble in web design and several other languages.
+Below are some of my projects.
 
 ### pyGAPS
 
@@ -15,6 +17,11 @@ fitting framework written in Python 3. It is open source and extensively documen
 of the capabilities are: routine material characterisation (specific surface area, pore
 volume, pore size distribution), isotherm model fitting as well as multicomponent
 adsorption prediction using IAST.
+
+### pyGAPS-GUI
+
+A [graphical user interface](https://github.com/pauliacomi/pyGAPS-gui) to the pyGAPS
+package, written in Qt (using Python bindings). This is currently a work in progress.
 
 ### This website
 

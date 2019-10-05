@@ -7,10 +7,10 @@ permalink: /about/
 
 # About me
 
-After being especially prone to disassemble things and blow them up as a teenager, I moved
-from my native Romania to the UK to study Chemical Engineering at Manchester. Working for
-a year placement in AkzoNobel ICI paints during my degree, I realised I enjoy research, in
-order to better understand and predict complex systems.
+After being especially prone to disassemble things and blow them up as a teenager, I left
+my native Romania to study Chemical Engineering at Manchester. Working for a year
+placement in AkzoNobel ICI paints during my degree, I realised I enjoy research, in order
+to better understand and predict complex systems.
 
 I applied for a EU Marie Curie PhD studentship to study adsorption in novel materials,
 such as metal-organic frameworks (MOF). Under the mantle of project [DEFNET](http://www.defnet-etn.eu/),
@@ -32,3 +32,6 @@ regards to high throughput data processing, extraction of key performance indica
 large datasets and automation. I am self taught in Python and C++ and currently develop
 several software packages to help me in my goals. I am a big proponent of open research
 and strive to make all my software open source and as robust as possible.
+
+When not working, I spend my time nerding out with various things such as video games,
+upcycling and connecting my coffee machine to the internet.
