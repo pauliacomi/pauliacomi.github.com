@@ -168,21 +168,18 @@ label[for="nav-trigger"] {
 /* Main Content */
 
 // Main page content
-// It is defining content parameters as well as
-// aligning it as a function of size
 .main-content {
+
+  // a third of the screen
   flex: 3;
   overflow: auto;
 
   @include mobile {
-    margin-left: 0%;
-    width: 100%;
     flex: 1 auto;
     overflow: visible;
   }
 
   // Stacked content/footer
-  // min-height: 100vh;
   display: flex;
   flex-direction: column;
 
@@ -195,13 +192,19 @@ label[for="nav-trigger"] {
   }
   h2 {
     @include relative-font-size(2.2);
+    @include mobile {
+      @include relative-font-size(1.6);
+    }
     color: $accent-medium;
   }
   h3 {
     @include relative-font-size(1.8);
+    @include mobile {
+      @include relative-font-size(1.5);
+    }
   }
   h4 {
-    font-size: $base-font-size;
+    @include relative-font-size(1);
   }
   h5 {
     @include relative-font-size(0.9);
@@ -229,7 +232,6 @@ label[for="nav-trigger"] {
 
   // top
   flex: 1 auto;
-  flex-grow: 1;
 
   @include medium {
     max-width: 83%;
