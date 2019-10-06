@@ -98,26 +98,35 @@ blockquote {
 
 /* Code Highlighting */
 
-pre {
+pre.highlight {
+  @include relative-font-size(0.8);
+  @include small {
+    @include relative-font-size(0.7);
+  }
   background: $code-bg-color;
   color: $code-text-color;
-  border: 1px solid $cod-grey;
-  padding: 10px;
-  font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
-  font-size: 16px;
+  border: 1px solid $accent-dull;
   border-radius: 2px;
-  word-wrap: normal;
-  overflow: auto;
+  padding: 10px;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  // word-wrap: normal;
+  overflow-x: auto;
   overflow-y: hidden;
 }
 
+pre > code {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+// Inline code styling
 code.highlighter-rouge {
   background: $code-bg-color;
   color: $code-text-color;
   border: 1px solid $gallery;
+  border-radius: 2px;
   padding: 0px 3px;
   margin: 0px -3px;
-  border-radius: 2px;
 }
 
 /* Tables */
