@@ -11,7 +11,6 @@ baseurl: ""
 url: "https://pauliacomi.com"
 logo: "/assets/images/me.jpg"
 google_analytics: UA-56200536-1
-show_excrepts: false
 
 # social links
 linkedin_username: pauliacomi
@@ -21,12 +20,21 @@ google_scholar: 4_E8rqcAAAAJ
 orc_id: 0000-0001-5477-1503
 
 # Build settings
+include:
+  - _pages
 markdown: kramdown
+highlighter: rouge
+show_excerpts: true
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-email-protect
 
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Nav
 navigation:
   - item: "About"
     link: "/about/"
