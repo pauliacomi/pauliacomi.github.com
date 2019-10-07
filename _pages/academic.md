@@ -12,6 +12,9 @@ in the sidebar.
 
 ### Publications
 
+* [**Vapor-Phase Linker Exchange of the Metal-Organic Framework ZIF-8: A Solvent-Free Approach to Post-Synthetic Modification**](//doi.org/10.1002/anie.201912088)
+J. Marreiros, L. van Dommelen, G. Fleury, R. de Oliveira-Silva, T. Stassin, P. Iacomi, S. Furukawa, D. Sakellariou, P. L. Llewellyn, M. Roeffaers, R. Ameloot _Angewandte Chemie_ *2019*
+
 * [**pyGAPS: a Python-based framework for adsorption isotherm processing and material characterisation**](//doi.org/10.1007/s10450-019-00168-5)
 Paul Iacomi, Philip L Llewellyn _Adsorption_ **2019**
 
