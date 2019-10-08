@@ -11,7 +11,7 @@
     <meta name="MobileOptimized" content="320">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
- 
+
     <!-- SEO meta -->
     {% seo %}
 
@@ -19,14 +19,16 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="{{ site.title }}">
     <meta name="twitter:description" content="{{ site.description }}">
-    
+
     <!-- 404 redirect -->
     {% if page.url == "/404.html" %}
     <meta http-equiv="refresh" content="5; url=/">
     {% endif %}
-    
+
     <!-- CSS -->
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+
+    <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="{{'/favicon.png' | relative_url}}">
 
     <!-- Analytics meta -->

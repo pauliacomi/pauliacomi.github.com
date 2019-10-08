@@ -1,3 +1,12 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Basic site settings ###################################################
+
 title: Paul Iacomi
 email: mail@iacomipaul.com
 author: Paul Iacomi
@@ -9,30 +18,56 @@ description: >- # this means ignore newlines
 
 baseurl: ""
 url: "https://pauliacomi.com"
+
+# Jekyll settings #######################################################
+
+# this tells jekyll to include the content of the _pages
+# folder when generating the static site
+include:
+  - _pages
+
+# options for SASS (compiled CSS)
+sass:
+  # source folder
+  sass_dir: _sass
+  # when compiling, minimize size
+  style: compressed
+
+### ! these cannot be changed for Github pages ! ###
+
+# index for related posts
+lsi: false
+# disable custom plugins
+safe: true
+# markdown conversion
+markdown: kramdown
+# highlighting for text and code
+highlighter: rouge
+# build only pages that changed
+incremental: false
+
+### ! these can be changed ! ###
+
+# show excerpts from posts on the news page
+show_excerpts: true
+
+# Jekyll plugins go here
+plugins:
+  # generate a <head> tag for SEO automatically
+  - jekyll-seo-tag
+  # generates an rss feed from posts and news
+  - jekyll-feed
+  
+# Custom settings #######################################################
+
+# social/analytics variables
 logo: "/assets/images/me.jpg"
 google_analytics: UA-56200536-1
-
-# social links
 linkedin_username: pauliacomi
 twitter_username: iacomip
 github_username:  pauliacomi
 google_scholar: 4_E8rqcAAAAJ
 orc_id: 0000-0001-5477-1503
-
-# Build settings
-include:
-  - _pages
-markdown: kramdown
-highlighter: rouge
-show_excerpts: true
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-email-protect
-
-sass:
-  sass_dir: _sass
-  style: compressed
 
 # Nav
 navigation:
