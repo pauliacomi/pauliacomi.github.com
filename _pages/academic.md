@@ -12,31 +12,34 @@ in the sidebar.
 
 ### Publications
 
+* [**Can the NIST Adsorption Database Be Used to Highlight Potential Materials for Gas Separation?**](//doi.org/10.26434/chemrxiv.9490526)
+___Paul Iacomi___, Philip L Llewellyn _Preprint_ (2019)
+
 * [**Vapor-Phase Linker Exchange of the Metal-Organic Framework ZIF-8: A Solvent-Free Approach to Post-Synthetic Modification**](//doi.org/10.1002/anie.201912088)
-J. Marreiros, L. van Dommelen, G. Fleury, R. de Oliveira-Silva, T. Stassin, ___Paul Iacomi___, S. Furukawa, D. Sakellariou, P. L. Llewellyn, M. Roeffaers, R. Ameloot _Angewandte Chemie_ *2019*
+J. Marreiros, L. van Dommelen, G. Fleury, R. de Oliveira-Silva, T. Stassin, ___Paul Iacomi___, S. Furukawa, D. Sakellariou, P. L. Llewellyn, M. Roeffaers, R. Ameloot _Angewandte Chemie_ (2019)
 
 * [**pyGAPS: a Python-based framework for adsorption isotherm processing and material characterisation**](//doi.org/10.1007/s10450-019-00168-5)
-___Paul Iacomi___, Philip L Llewellyn _Adsorption_ **2019**
+___Paul Iacomi___, Philip L Llewellyn _Adsorption_ (2019) 25: 1533
 
 * [**Role of structural defects in the adsorption and separation of C3 hydrocarbons in Zr-fumarate-MOF (MOF-801)**](//doi.org/10.1021/acs.chemmater.9b02322)
 Paul Iacomi, Filip Formalik, João Marreiros, Jin Shang, Justyna Rogacka, 
 Alexander Mohmeyer, Peter Behrens, Rob Ameloot, Bogdan Kuchta, Philip L Llewellyn
-_Chemistry of Materials_ **2019**
+_Chemistry of Materials_ (2019)
 
 * [**Towards General Network Architecture Design Criteria for Negative Gas Adsorption Transitions in Ultraporous Frameworks**](//doi.org/10.1038/s41467-019-11565-3)
 S. Krause, J. D. Evans, V. Bon, I. Senkovska, ___Paul Iacomi___, F. Kolbe, S. Ehrling, 
 E. Troschke, J. Getzschmann, D. D. Többens, A. Franz, D. Wallacher, P. G. Yot, 
 G. Maurin, E. Brunner, P. L. Llewellyn, F. X. Coudert, S. Kaskel
-_Nature Communications_ **2019**, 10, 3632 
+_Nature Communications_ (2019) 10, 3632 
 
 * [**Investigating the Effect of Alumina Shaping on the Sorption Properties of Promising Metal-Organic Frameworks**](//doi.org/10.1039/C9RA00534J)
 ___Paul Iacomi___, U-Hwang Lee, Anil H. Valenkar, Jong-San Chang, Philip L. Llewellyn
-_RCS Advances_ **2019**, 9, 7128-7135
+_RCS Advances_ (2019) 9, 7128-7135
 
 * [**Adsorption Contraction Mechanics: Understanding Breathing Energetics in Isoreticular Metal–Organic Frameworks**](//doi.org/10.1021/acs.jpcc.8b04549)
 S. Krause, J. D. Evans, V. Bon, I. Senkovska, S. Ehrling, U. Stoeck, 
 P. G. Yot, ___P. Iacomi___, P. Llewellyn, G. Maurin, F. X. Coudert, S. Kaskel
-_The Journal of Physical Chemistry C_ **2018** 122 (33), 19171-19179
+_The Journal of Physical Chemistry C_ (2018) 122 (33), 19171-19179
 
 ### Conference presentations
 
