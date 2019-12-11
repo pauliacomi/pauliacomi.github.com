@@ -1,7 +1,7 @@
 ---
 layout: blank
 title: Adsorption explorer
-permalink: /mat-explorer/
+permalink: /adsorption-explorer/
 ---
 
 <style type="text/css" media="screen">
