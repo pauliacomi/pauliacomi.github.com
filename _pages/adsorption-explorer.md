@@ -1,7 +1,7 @@
 ---
 layout: blank
 title: Adsorption explorer
-permalink: /separation-explorer/
+permalink: /adsorption-explorer/
 ---
 
 <style type="text/css" media="screen">
