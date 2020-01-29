@@ -12,19 +12,19 @@ in the sidebar.
 
 ### Publications
 
-* [**Can the NIST Adsorption Database Be Used to Highlight Potential Materials for Gas Separation?**](//doi.org/10.26434/chemrxiv.9490526)
-___Paul Iacomi___ and Philip L Llewellyn _Preprint_ (2019)
+* [**Data Mining for Binary Separation Materials in Published Adsorption Isotherms**](//doi.org/10.1021/acs.chemmater.9b03376)
+___Paul Iacomi___ and Philip L Llewellyn _Chemistry of Materials_ (2020)
 
 * [**Vapor-Phase Linker Exchange of the Metal-Organic Framework ZIF-8: A Solvent-Free Approach to Post-Synthetic Modification**](//doi.org/10.1002/anie.201912088)
-J. Marreiros, L. van Dommelen, G. Fleury, R. de Oliveira-Silva, T. Stassin, ___Paul Iacomi___, S. Furukawa, D. Sakellariou, P. L. Llewellyn, M. Roeffaers, R. Ameloot _Angewandte Chemie_ (2019)
+J. Marreiros, L. van Dommelen, G. Fleury, R. de Oliveira-Silva, T. Stassin, ___Paul Iacomi___, S. Furukawa, D. Sakellariou, P. L. Llewellyn, M. Roeffaers, R. Ameloot _Angewandte Chemie_ (2019) 58, 18471-18475
 
 * [**pyGAPS: a Python-based framework for adsorption isotherm processing and material characterisation**](//doi.org/10.1007/s10450-019-00168-5)
-___Paul Iacomi___ and Philip L Llewellyn _Adsorption_ (2019) 25: 1533
+___Paul Iacomi___ and Philip L Llewellyn _Adsorption_ (2019) 25, 1533–1542
 
 * [**Role of structural defects in the adsorption and separation of C3 hydrocarbons in Zr-fumarate-MOF (MOF-801)**](//doi.org/10.1021/acs.chemmater.9b02322)
 Paul Iacomi, Filip Formalik, João Marreiros, Jin Shang, Justyna Rogacka, 
 Alexander Mohmeyer, Peter Behrens, Rob Ameloot, Bogdan Kuchta, Philip L Llewellyn
-_Chemistry of Materials_ (2019)
+_Chemistry of Materials_ (2019) 31, 8413-8423
 
 * [**Towards General Network Architecture Design Criteria for Negative Gas Adsorption Transitions in Ultraporous Frameworks**](//doi.org/10.1038/s41467-019-11565-3)
 S. Krause, J. D. Evans, V. Bon, I. Senkovska, ___Paul Iacomi___, F. Kolbe, S. Ehrling, 
