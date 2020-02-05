@@ -13,7 +13,7 @@ placement in AkzoNobel ICI paints during my degree, I realised I enjoy research,
 to better understand and predict complex systems.
 
 I applied for a EU Marie Curie PhD studentship to study adsorption in novel materials,
-such as metal-organic frameworks (MOF). Under the mantle of project [DEFNET](http://www.defnet-etn.eu/),
+such as metal-organic frameworks (MOF). Under the mantle of project [DEFNET](https://cordis.europa.eu/project/id/641887),
 I moved to Marseille, France to dedicate three years to understand the influence of
 structural defects in MOFs on their adsorption performance and surface energetics in the [MADIREL](http://madirel.univ-amu.fr/node/99)
 research lab. I also developed a greater interest in adsorbent materials, with some of my
