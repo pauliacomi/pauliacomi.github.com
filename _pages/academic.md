@@ -22,7 +22,7 @@ J. Marreiros, L. van Dommelen, G. Fleury, R. de Oliveira-Silva, T. Stassin, ___P
 ___Paul Iacomi___ and Philip L Llewellyn _Adsorption_ (2019) 25, 1533–1542
 
 * [**Role of structural defects in the adsorption and separation of C3 hydrocarbons in Zr-fumarate-MOF (MOF-801)**](//doi.org/10.1021/acs.chemmater.9b02322)
-Paul Iacomi, Filip Formalik, João Marreiros, Jin Shang, Justyna Rogacka, 
+__Paul Iacomi__, Filip Formalik, João Marreiros, Jin Shang, Justyna Rogacka, 
 Alexander Mohmeyer, Peter Behrens, Rob Ameloot, Bogdan Kuchta, Philip L Llewellyn
 _Chemistry of Materials_ (2019) 31, 8413-8423
 
