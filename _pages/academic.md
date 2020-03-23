@@ -12,8 +12,12 @@ in the sidebar.
 
 ### Publications
 
+* [**Low Temperature Calorimetry Coupled with Molecular Simulations for an In-Depth 
+Characterization of the Guest-Dependent Compliant Behaviour of MOFs**](//doi.org/10.26434/chemrxiv.11770437)
+___Paul Iacomi___,  B. Zheng, S. Krause, S. Kaskel, G. Maurin and P. L. Llewellyn _Chemistry of Materials_ (2020)
+
 * [**Data Mining for Binary Separation Materials in Published Adsorption Isotherms**](//doi.org/10.1021/acs.chemmater.9b03376)
-___Paul Iacomi___ and Philip L Llewellyn _Chemistry of Materials_ (2020)
+___Paul Iacomi___ and Philip L Llewellyn _Chemistry of Materials_ (2020) 32, 3, 982-991
 
 * [**Vapor-Phase Linker Exchange of the Metal-Organic Framework ZIF-8: A Solvent-Free Approach to Post-Synthetic Modification**](//doi.org/10.1002/anie.201912088)
 J. Marreiros, L. van Dommelen, G. Fleury, R. de Oliveira-Silva, T. Stassin, ___Paul Iacomi___, S. Furukawa, D. Sakellariou, P. L. Llewellyn, M. Roeffaers, R. Ameloot _Angewandte Chemie_ (2019) 58, 18471-18475
@@ -83,7 +87,7 @@ Aix-Marseille Université, France in front of the following jury:
 *   Prof. Stefan Kaskel (_examinator_)
 *   Dr. Philip Llewelyn (_thesis director_)
 
-The text is currently under a one-year embargo, but it's available upon request.
+The text is available in full on [GitHub](https://github.com/pauliacomi/PhD-Thesis).
 
 ### Other roles and collaborations
 
