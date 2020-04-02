@@ -13,7 +13,7 @@ in the sidebar.
 ### Publications
 
 * [**Low Temperature Calorimetry Coupled with Molecular Simulations for an In-Depth 
-Characterization of the Guest-Dependent Compliant Behaviour of MOFs**](//doi.org/10.26434/chemrxiv.11770437)
+Characterization of the Guest-Dependent Compliant Behaviour of MOFs**](//doi.org/10.1021/acs.chemmater.0c00417)
 ___Paul Iacomi___,  B. Zheng, S. Krause, S. Kaskel, G. Maurin and P. L. Llewellyn _Chemistry of Materials_ (2020)
 
 * [**Data Mining for Binary Separation Materials in Published Adsorption Isotherms**](//doi.org/10.1021/acs.chemmater.9b03376)
