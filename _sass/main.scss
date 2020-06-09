@@ -42,9 +42,13 @@ body {
   // sidebar + content flexbox
   display: flex;
 
+  // keep fixed
+  overflow: hidden;
+
   // on mobile stack vertically
   @include mobile {
     flex-direction: column;
+    overflow: auto;
   }
 
   // other attributes
