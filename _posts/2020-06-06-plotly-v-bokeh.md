@@ -3,6 +3,7 @@ layout: post
 title:  "Plotly vs. Bokeh: Interactive Python Visualisation Pros and Cons"
 date:   2020-06-07 15:55:17 +0100
 tags: programming python
+comments: true
 ---
 
 Over the last year, I've worked extensively with large datasets in Python, which
