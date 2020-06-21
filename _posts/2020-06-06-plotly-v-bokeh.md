@@ -96,6 +96,7 @@ frameworks do a good job for this use case.
 ### Bokeh
 
 ``` python
+
 from bokeh.plotting import figure, output_notebook, show
 output_notebook() # needs to be called to output in the notebook
 
@@ -105,12 +106,13 @@ y = [i**2 for i in x]
 
 # create a new plot
 fig = figure(
-    tools="pan,box_zoom,reset,save",
+    tools="pan,box_zoom,wheel_zoom,zoom_in,zoom_out,reset,save",
     title="Example Bokeh plot",
     y_axis_type="log",
     y_range=[0.001, 10**3],
-    x_axis_label='sections',
-    y_axis_label='particles'
+    x_axis_label='Sections',
+    y_axis_label='Particles (log)',
+    plot_width=600, plot_height=400,
 )
 
 # plot some data ('renderers' in Bokeh)
@@ -120,17 +122,16 @@ fig.line(x, y, legend_label="y=x^2", line_width=3, line_color="red")
 # show the results
 show(fig)
 ```
+The resulting figure is below. Try it out, it's interactive!
 <script type="text/javascript">
     (function() {
           var fn = function() {
             Bokeh.safely(function() {
               (function(root) {
                 function embed_document(root) {
-                  
-                var docs_json = '{"f35ba042-02a7-4940-8af4-f8570aaeddb2":{"roots":{"references":[{"attributes":{"below":[{"id":"1140"}],"center":[{"id":"1143"},{"id":"1147"},{"id":"1169"}],"left":[{"id":"1144"}],"renderers":[{"id":"1161"},{"id":"1174"}],"title":{"id":"1130"},"toolbar":{"id":"1153"},"x_range":{"id":"1132"},"x_scale":{"id":"1136"},"y_range":{"id":"1134"},"y_scale":{"id":"1138"}},"id":"1129","subtype":"Figure","type":"Plot"},{"attributes":{"ticker":null},"id":"1166","type":"LogTickFormatter"},{"attributes":{},"id":"1203","type":"Selection"},{"attributes":{"fill_color":{"value":"white"},"line_color":{"value":"#1f77b4"},"size":{"units":"screen","value":8},"x":{"field":"x"},"y":{"field":"y"}},"id":"1159","type":"Circle"},{"attributes":{},"id":"1164","type":"BasicTickFormatter"},{"attributes":{},"id":"1204","type":"UnionRenderers"},{"attributes":{"line_color":"red","line_width":3,"x":{"field":"x"},"y":{"field":"y"}},"id":"1172","type":"Line"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"1152","type":"BoxAnnotation"},{"attributes":{"label":{"value":"y=x^2"},"renderers":[{"id":"1174"}]},"id":"1184","type":"LegendItem"},{"attributes":{"data":{"x":[0.1,0.5,1.0,1.5,2.0,2.5,3.0],"y":[0.010000000000000002,0.25,1.0,2.25,4.0,6.25,9.0]},"selected":{"id":"1203"},"selection_policy":{"id":"1204"}},"id":"1171","type":"ColumnDataSource"},{"attributes":{"data_source":{"id":"1158"},"glyph":{"id":"1159"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1160"},"selection_glyph":null,"view":{"id":"1162"}},"id":"1161","type":"GlyphRenderer"},{"attributes":{},"id":"1138","type":"LogScale"},{"attributes":{},"id":"1148","type":"PanTool"},{"attributes":{"label":{"value":"y=x"},"renderers":[{"id":"1161"}]},"id":"1170","type":"LegendItem"},{"attributes":{},"id":"1141","type":"BasicTicker"},{"attributes":{"axis_label":"Particles (log)","formatter":{"id":"1166"},"ticker":{"id":"1145"}},"id":"1144","type":"LogAxis"},{"attributes":{"source":{"id":"1171"}},"id":"1175","type":"CDSView"},{"attributes":{},"id":"1136","type":"LinearScale"},{"attributes":{"line_alpha":0.1,"line_color":"red","line_width":3,"x":{"field":"x"},"y":{"field":"y"}},"id":"1173","type":"Line"},{"attributes":{"axis_label":"Sections","formatter":{"id":"1164"},"ticker":{"id":"1141"}},"id":"1140","type":"LinearAxis"},{"attributes":{"num_minor_ticks":10},"id":"1145","type":"LogTicker"},{"attributes":{},"id":"1132","type":"DataRange1d"},{"attributes":{"source":{"id":"1158"}},"id":"1162","type":"CDSView"},{"attributes":{"axis":{"id":"1140"},"ticker":null},"id":"1143","type":"Grid"},{"attributes":{"data":{"x":[0.1,0.5,1.0,1.5,2.0,2.5,3.0],"y":[0.1,0.5,1.0,1.5,2.0,2.5,3.0]},"selected":{"id":"1182"},"selection_policy":{"id":"1183"}},"id":"1158","type":"ColumnDataSource"},{"attributes":{"items":[{"id":"1170"},{"id":"1184"}]},"id":"1169","type":"Legend"},{"attributes":{"data_source":{"id":"1171"},"glyph":{"id":"1172"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1173"},"selection_glyph":null,"view":{"id":"1175"}},"id":"1174","type":"GlyphRenderer"},{"attributes":{"axis":{"id":"1144"},"dimension":1,"ticker":null},"id":"1147","type":"Grid"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1148"},{"id":"1149"},{"id":"1150"},{"id":"1151"}]},"id":"1153","type":"Toolbar"},{"attributes":{"end":1000,"start":0.001},"id":"1134","type":"Range1d"},{"attributes":{},"id":"1182","type":"Selection"},{"attributes":{"text":"Example Bokeh plot"},"id":"1130","type":"Title"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"white"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"size":{"units":"screen","value":8},"x":{"field":"x"},"y":{"field":"y"}},"id":"1160","type":"Circle"},{"attributes":{"overlay":{"id":"1152"}},"id":"1149","type":"BoxZoomTool"},{"attributes":{},"id":"1183","type":"UnionRenderers"},{"attributes":{},"id":"1150","type":"ResetTool"},{"attributes":{},"id":"1151","type":"SaveTool"}],"root_ids":["1129"]},"title":"Bokeh Application","version":"2.0.2"}}';
-                var render_items = [{"docid":"f35ba042-02a7-4940-8af4-f8570aaeddb2","root_ids":["1129"],"roots":{"1129":"34e9bdf5-532c-4ea8-b1de-8b8b8d6d89da"}}];
+                var docs_json = '{"3106a900-e1d6-4073-a9e1-133abbc2648c":{"roots":{"references":[{"attributes":{"below":[{"id":"1832"}],"center":[{"id":"1835"},{"id":"1839"},{"id":"1867"}],"left":[{"id":"1836"}],"plot_height":400,"renderers":[{"id":"1859"},{"id":"1872"}],"title":{"id":"1822"},"toolbar":{"id":"1848"},"x_range":{"id":"1824"},"x_scale":{"id":"1828"},"y_range":{"id":"1826"},"y_scale":{"id":"1830"}},"id":"1821","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"1830","type":"LogScale"},{"attributes":{},"id":"1840","type":"PanTool"},{"attributes":{"line_alpha":0.1,"line_color":"red","line_width":3,"x":{"field":"x"},"y":{"field":"y"}},"id":"1871","type":"Line"},{"attributes":{"data":{"x":[0.1,0.5,1.0,1.5,2.0,2.5,3.0],"y":[0.1,0.5,1.0,1.5,2.0,2.5,3.0]},"selected":{"id":"1880"},"selection_policy":{"id":"1881"}},"id":"1856","type":"ColumnDataSource"},{"attributes":{},"id":"1862","type":"BasicTickFormatter"},{"attributes":{"line_color":"red","line_width":3,"x":{"field":"x"},"y":{"field":"y"}},"id":"1870","type":"Line"},{"attributes":{},"id":"1843","type":"ZoomInTool"},{"attributes":{"text":"Example Bokeh plot"},"id":"1822","type":"Title"},{"attributes":{},"id":"1942","type":"UnionRenderers"},{"attributes":{},"id":"1842","type":"WheelZoomTool"},{"attributes":{"data_source":{"id":"1869"},"glyph":{"id":"1870"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1871"},"selection_glyph":null,"view":{"id":"1873"}},"id":"1872","type":"GlyphRenderer"},{"attributes":{},"id":"1828","type":"LinearScale"},{"attributes":{"overlay":{"id":"1847"}},"id":"1841","type":"BoxZoomTool"},{"attributes":{"label":{"value":"y=x"},"renderers":[{"id":"1859"}]},"id":"1868","type":"LegendItem"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"white"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"size":{"units":"screen","value":8},"x":{"field":"x"},"y":{"field":"y"}},"id":"1858","type":"Circle"},{"attributes":{"end":1000,"start":0.001},"id":"1826","type":"Range1d"},{"attributes":{"source":{"id":"1869"}},"id":"1873","type":"CDSView"},{"attributes":{},"id":"1941","type":"Selection"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1840"},{"id":"1841"},{"id":"1842"},{"id":"1843"},{"id":"1844"},{"id":"1845"},{"id":"1846"}]},"id":"1848","type":"Toolbar"},{"attributes":{},"id":"1833","type":"BasicTicker"},{"attributes":{},"id":"1846","type":"SaveTool"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"1847","type":"BoxAnnotation"},{"attributes":{"axis":{"id":"1836"},"dimension":1,"ticker":null},"id":"1839","type":"Grid"},{"attributes":{"label":{"value":"y=x^2"},"renderers":[{"id":"1872"}]},"id":"1882","type":"LegendItem"},{"attributes":{"fill_color":{"value":"white"},"line_color":{"value":"#1f77b4"},"size":{"units":"screen","value":8},"x":{"field":"x"},"y":{"field":"y"}},"id":"1857","type":"Circle"},{"attributes":{"axis":{"id":"1832"},"ticker":null},"id":"1835","type":"Grid"},{"attributes":{"axis_label":"Particles (log)","formatter":{"id":"1864"},"ticker":{"id":"1837"}},"id":"1836","type":"LogAxis"},{"attributes":{},"id":"1844","type":"ZoomOutTool"},{"attributes":{},"id":"1880","type":"Selection"},{"attributes":{"data_source":{"id":"1856"},"glyph":{"id":"1857"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1858"},"selection_glyph":null,"view":{"id":"1860"}},"id":"1859","type":"GlyphRenderer"},{"attributes":{"data":{"x":[0.1,0.5,1.0,1.5,2.0,2.5,3.0],"y":[0.010000000000000002,0.25,1.0,2.25,4.0,6.25,9.0]},"selected":{"id":"1941"},"selection_policy":{"id":"1942"}},"id":"1869","type":"ColumnDataSource"},{"attributes":{},"id":"1881","type":"UnionRenderers"},{"attributes":{},"id":"1824","type":"DataRange1d"},{"attributes":{},"id":"1845","type":"ResetTool"},{"attributes":{"items":[{"id":"1868"},{"id":"1882"}]},"id":"1867","type":"Legend"},{"attributes":{"axis_label":"Sections","formatter":{"id":"1862"},"ticker":{"id":"1833"}},"id":"1832","type":"LinearAxis"},{"attributes":{"source":{"id":"1856"}},"id":"1860","type":"CDSView"},{"attributes":{"num_minor_ticks":10},"id":"1837","type":"LogTicker"},{"attributes":{"ticker":null},"id":"1864","type":"LogTickFormatter"}],"root_ids":["1821"]},"title":"Bokeh Application","version":"2.0.2"}}';
+                var render_items = [{"docid":"3106a900-e1d6-4073-a9e1-133abbc2648c","root_ids":["1821"],"roots":{"1821":"214c4dff-6ee2-433f-b262-343c0a732d40"}}];
                 root.Bokeh.embed.embed_items(docs_json, render_items);
-              
                 }
                 if (root.Bokeh !== undefined) {
                   embed_document(root);
@@ -156,8 +157,9 @@ show(fig)
           else document.addEventListener("DOMContentLoaded", fn);
         })();
 </script>
-<div class="bk-root" id="34e9bdf5-532c-4ea8-b1de-8b8b8d6d89da" data-root-id="1129"></div>
+<div class="bk-root" id="214c4dff-6ee2-433f-b262-343c0a732d40" data-root-id="1821"></div>
 
+More info on how to customise figures to your liking can be found on the Bokeh page.
 
 ### Plotly
 
