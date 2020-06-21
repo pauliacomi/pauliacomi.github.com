@@ -161,7 +161,8 @@ The resulting figure is below. Try it out, it's interactive!
         })();
 </script>
 
-More info on how to customise figures to your liking can be found on the Bokeh page.
+More info on how to customise figures to your liking can be found on the
+[Bokeh](https://docs.bokeh.org/en/latest/docs/user_guide/plotting.html) page.
 
 ### Plotly
 
@@ -190,6 +191,8 @@ fig.add_trace(go.Scatter(x=x, y=y, name="y=x^2", line=dict(width=3)))
 # show the results
 fig.show()
 ```
+As before, the resulting interactive figure is below.
+
 <div id="66c1cdad-5716-4bd6-8dc6-a27c73f6dd07" class="plotly-graph-div" style="height:100%; width:100%;"></div>
 <script type="text/javascript">
     window.PLOTLYENV = window.PLOTLYENV || {};
@@ -202,6 +205,9 @@ fig.show()
         )
     };
 </script>
+
+More info on how to customise figures to your liking can be found on the
+[Plotly](https://plotly.com/python/) page.
 
 ## Use as a dashboard
 
