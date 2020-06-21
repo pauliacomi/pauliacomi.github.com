@@ -6,11 +6,11 @@ comments: true
 <div class="post-meta">{{ page.date | date: "%-d %B %Y" }}</div>
 <h2>{{ page.title }}</h2>
 
-{{content}}
-
 {% if page.tags %}
   <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
 {% endif %}
+
+{{content}}
 
 {% if page.comments %}
   <div id="disqus_thread"></div>
