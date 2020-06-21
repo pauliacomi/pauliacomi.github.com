@@ -16,7 +16,7 @@ Matplotlib. There are essentially only two libraries which provide the high
 level of interactivity I was looking for, while being mature enough:
 [Plotly (+Dash)](https://plotly.com/) and [Bokeh](https://docs.bokeh.org/). Each
 has their own strengths and weaknesses and after taking some time to work with
-both, I can honestly say that there's no **best** alternative. Here's why.
+both, I can honestly say that there's no **best** option.
 
 ## What I wanted
 
