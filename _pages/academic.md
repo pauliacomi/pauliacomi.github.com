@@ -12,32 +12,36 @@ in the sidebar.
 
 ### Publications
 
+* [**Engineering micromechanics of soft porous crystals for negative gas adsorption**](//doi.org/10.1039/D0SC03727C)
+S. Krause, J. D. Evans, V. Bon, I. Senkovska, S. Ehrling, ___P. Iacomi___, D. M. Többens, D. Wallacher, M. S. Weiss, B. Zheng, 
+P. G. Yot, G. Maurin, P. L. Llewellyn, F-X. Coudert, S. Kaskel _Chemical Science_ (2020) 11 (35), 9468-9479
+
 * [**Low Temperature Calorimetry Coupled with Molecular Simulations for an In-Depth 
 Characterization of the Guest-Dependent Compliant Behaviour of MOFs**](//doi.org/10.1021/acs.chemmater.0c00417)
-___Paul Iacomi___,  B. Zheng, S. Krause, S. Kaskel, G. Maurin and P. L. Llewellyn _Chemistry of Materials_ (2020)
+___P. Iacomi___, B. Zheng, S. Krause, S. Kaskel, G. Maurin and P. L. Llewellyn _Chemistry of Materials_ (2020)
 
 * [**Data Mining for Binary Separation Materials in Published Adsorption Isotherms**](//doi.org/10.1021/acs.chemmater.9b03376)
-___Paul Iacomi___ and Philip L Llewellyn _Chemistry of Materials_ (2020) 32, 3, 982-991
+___P. Iacomi___ and Philip L Llewellyn _Chemistry of Materials_ (2020) 32, 3, 982-991
 
 * [**Vapor-Phase Linker Exchange of the Metal-Organic Framework ZIF-8: A Solvent-Free Approach to Post-Synthetic Modification**](//doi.org/10.1002/anie.201912088)
-J. Marreiros, L. van Dommelen, G. Fleury, R. de Oliveira-Silva, T. Stassin, ___Paul Iacomi___, S. Furukawa, D. Sakellariou, P. L. Llewellyn, M. Roeffaers, R. Ameloot _Angewandte Chemie_ (2019) 58, 18471-18475
+J. Marreiros, L. van Dommelen, G. Fleury, R. de Oliveira-Silva, T. Stassin, ___P. Iacomi___, S. Furukawa, D. Sakellariou, P. L. Llewellyn, M. Roeffaers, R. Ameloot _Angewandte Chemie_ (2019) 58, 18471-18475
 
 * [**pyGAPS: a Python-based framework for adsorption isotherm processing and material characterisation**](//doi.org/10.1007/s10450-019-00168-5)
-___Paul Iacomi___ and Philip L Llewellyn _Adsorption_ (2019) 25, 1533–1542
+___P. Iacomi___ and Philip L Llewellyn _Adsorption_ (2019) 25, 1533–1542
 
 * [**Role of structural defects in the adsorption and separation of C3 hydrocarbons in Zr-fumarate-MOF (MOF-801)**](//doi.org/10.1021/acs.chemmater.9b02322)
-__Paul Iacomi__, Filip Formalik, João Marreiros, Jin Shang, Justyna Rogacka, 
+___P. Iacomi___, Filip Formalik, João Marreiros, Jin Shang, Justyna Rogacka, 
 Alexander Mohmeyer, Peter Behrens, Rob Ameloot, Bogdan Kuchta, Philip L Llewellyn
 _Chemistry of Materials_ (2019) 31, 8413-8423
 
 * [**Towards General Network Architecture Design Criteria for Negative Gas Adsorption Transitions in Ultraporous Frameworks**](//doi.org/10.1038/s41467-019-11565-3)
-S. Krause, J. D. Evans, V. Bon, I. Senkovska, ___Paul Iacomi___, F. Kolbe, S. Ehrling, 
+S. Krause, J. D. Evans, V. Bon, I. Senkovska, ___P. Iacomi___, F. Kolbe, S. Ehrling, 
 E. Troschke, J. Getzschmann, D. D. Többens, A. Franz, D. Wallacher, P. G. Yot, 
 G. Maurin, E. Brunner, P. L. Llewellyn, F. X. Coudert, S. Kaskel
 _Nature Communications_ (2019) 10, 3632 
 
 * [**Investigating the Effect of Alumina Shaping on the Sorption Properties of Promising Metal-Organic Frameworks**](//doi.org/10.1039/C9RA00534J)
-___Paul Iacomi___, U-Hwang Lee, Anil H. Valenkar, Jong-San Chang, Philip L. Llewellyn
+___P. Iacomi___, U-Hwang Lee, Anil H. Valenkar, Jong-San Chang, Philip L. Llewellyn
 _RCS Advances_ (2019) 9, 7128-7135
 
 * [**Adsorption Contraction Mechanics: Understanding Breathing Energetics in Isoreticular Metal–Organic Frameworks**](//doi.org/10.1021/acs.jpcc.8b04549)
@@ -87,7 +91,7 @@ Aix-Marseille Université, France in front of the following jury:
 *   Prof. Stefan Kaskel (_examinator_)
 *   Dr. Philip Llewelyn (_thesis director_)
 
-The text is available in full on [GitHub](https://github.com/pauliacomi/PhD-Thesis).
+The text is available in full on [GitHub](https://github.com/pauliacomi/PhD-Thesis) and in the [original version](https://www.theses.fr/2018AIXM0415).
 
 ### Other roles and collaborations
 
