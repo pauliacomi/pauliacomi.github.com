@@ -15,10 +15,13 @@ the ORCID or Google Scholar links in the sidebar.
 #### 2021
 
 * [**Breaking the upper bound of siloxane uptake: metal-organic frameworks as an adsorbent platform**](https://doi.org/10.1039/D1TA02275J)
-E. Gulcay*, ___P. Iacomi___*, Y. Ko, J-S. Chang, G. Rioland, S. Devautour-Vinot, G. Maurin. _Journal of Materials Chemistry A_ (2021)
+E. Gulcay*, ___P. Iacomi___, Y. Ko, J-S. Chang, G. Rioland, S. Devautour-Vinot, G. Maurin. _Journal of Materials Chemistry A_ (2021)
+
+* [**Multifunctionality of weak ferromagnetic porphyrin-based MOF: selective adsorption in liquid and gas phase**](https://doi.org/10.1039/D1CE00046B)
+E. A. López, ___P. Iacomi___, A. Fidalgo-Marijuan, B. Bazan, M-K. Urtiaga, G. Barandika, L. Lezama, P. L. Llewellyn, M-I. Arriortua. _CrystEngComm_ (2021)
 
 * [**Crystals Springing into action: metal–organic framework CUK-1 as a pressure-driven molecular spring**](https://doi.org/10.1039/D1SC00205H)
-___P. Iacomi___, J. S. Lee, L Vanduyfhuys, K. H. Cho, P. Fertey, J. Wieme, D. Granier, G. Maurin, V. Van Speybroeck, J-S. Chang, P. G. Yot _Chemical Science_ (2021) 12, 5682-5687
+___P. Iacomi___, J. S. Lee, L Vanduyfhuys, K. H. Cho, P. Fertey, J. Wieme, D. Granier, G. Maurin, V. Van Speybroeck, J-S. Chang, P. G. Yot. _Chemical Science_ (2021) 12, 5682-5687
 
 #### 2020
 
