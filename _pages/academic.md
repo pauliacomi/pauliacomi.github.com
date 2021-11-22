@@ -14,10 +14,10 @@ the ORCID or Google Scholar links in the sidebar.
 
 #### 2021
 
-* [**ResponZIF Structures: Zeolitic Imidazolate Frameworks as Stimuli-Responsive Materials*](https://doi.org/10.1021/acsami.1c12403)
+* [**ResponZIF Structures: Zeolitic Imidazolate Frameworks as Stimuli-Responsive Materials**](https://doi.org/10.1021/acsami.1c12403)
 ___P. Iacomi___ and G. Maurin, _ACS Appl. Mater. Interfaces_ (2021)
 
-* [**Benchtop In Situ Measurement of Full Adsorption Isotherms by NMR*](https://doi.org/10.1021/jacs.1c03716)
+* [**Benchtop In Situ Measurement of Full Adsorption Isotherms by NMR**](https://doi.org/10.1021/jacs.1c03716)
 J. Marreiros, R. de Oliveira-Silva, ___P. Iacomi___, P. L. Llewellyn, R. Ameloot, and D. Sakellariou, _J. Am. Chem. Soc._ (2021), 143, 22, pp. 8249–8254,,
 
 * [**Breaking the upper bound of siloxane uptake: metal-organic frameworks as an adsorbent platform**](https://doi.org/10.1039/D1TA02275J)
