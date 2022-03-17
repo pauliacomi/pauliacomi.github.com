@@ -20,11 +20,21 @@ adsorption prediction using IAST.
 
 ### pyGAPS-GUI
 
-A [graphical user interface](https://github.com/pauliacomi/pyGAPS-gui) to the pyGAPS
-package, written in Qt (using Python bindings). This is currently a work in progress.
+A [graphical user interface](https://github.com/pauliacomi/pyGAPS-gui) to the
+pyGAPS package, written in Qt (using Python bindings). It attempts to make the
+powerful functionality of pyGAPS available in an easy to use, intuitive
+application.
+
+### LaTeX paper template
+
+A nifty LaTeX class for
+[scientific publications](https://github.com/pauliacomi/scipaper-latex-class).
+Attempts to look like a modern publication and comes with options such as
+one/two column layouts, two-column figures, ORCID support and more.
 
 ### This website
 
-My [personal website](https://github.com/pauliacomi/pauliacomi.github.com). A static site
-using GitHub Pages, Jekyll and a theme adapted from the open source GitHub Cayman theme.
-Nothing too fancy.
+My [personal website](https://github.com/pauliacomi/pauliacomi.github.com). A
+static site using GitHub Pages, Jekyll and a theme adapted from the open source
+GitHub Cayman theme. Nothing too fancy (except the useless ``particle.js``
+effects).
