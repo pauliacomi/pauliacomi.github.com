@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-  //   /* ---- particle config ---- */
+  /* ---- particles.js config ---- */
 
-  particlesJS("particles-container", {
+  particlesJS("particles-js", {
     "particles": {
       "number": {
         "value": 80,
