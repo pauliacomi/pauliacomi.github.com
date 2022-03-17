@@ -2,7 +2,7 @@
 
 //   /* ---- particle config ---- */
 
-tsParticles.load("particles-container", {
+particlesJS("particles-container", {
   "particles": {
     "number": {
       "value": 80,
