@@ -10,9 +10,13 @@ A list of peer reviewed publications I have written or co-authored, as well as
 conferences I attended and other academic exchanges. For up-to date info, follow
 the ORCID or Google Scholar links in the sidebar.
 
-### Publications (N=15)
+### Publications (N=13)
 
 #### 2022
+
+* [**MIL-101(Cr) MOF as an Effective Siloxane Sensor**](https://doi.org/10.1021/acsami.2c02607)
+_**Iacomi, P.**_, Gulcay, E., Pires Conti, P., Biswas, S., Steunou, N., Maurin,
+G., Rioland, G., and Devautour-Vinot, S. _ACS Appl. Mater. Interfaces_ (2022)
 
 * [**Structural insight of MOFs under combined mechanical and adsorption stimuli**](https://doi.org/10.1002/anie.202201924)
 _**P. Iacomi**_, F. Alabarse, A. Roger, L. Thomas, C. Thessieu, G. Maurin, and P. G. Yot. _Angew. Chem._ (2022)
