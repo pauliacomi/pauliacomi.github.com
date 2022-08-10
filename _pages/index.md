@@ -8,15 +8,21 @@ permalink: /
 
 ### I am a researcher studying novel adsorbent materials
 
-My current research focuses on the study of porous materials for gas adsorption and
-separation. In particular I am interested in how flexible metal-organic frameworks react
-to external stimuli such as pressure, temperature and adsorbed guests. To this end, I am
-working in the [DAMP](https://www.icgm.fr/damp) team at the Institut Charles Gerhard
-Montpellier, under an ANR-funded [project](https://anr.fr/Project-ANR-17-CE29-0003) to
-characterize the interplay between mechanical pressure and adsorption in porous materials.
+I am a researcher in the field of adsorption, currently developing and
+supporting state-of-the-art gravimetric sorption devices over at
+[Surface Measurement Systems](https://surfacemeasurementsystems.com/). My main
+research topic is looking at surfaces, interfaces and porous materials through
+the adsorption of gases. Some of my papers can be found in the
+[work](/academic) section.
 
-Previously I was studying [adsorption-induced flexibility](http://www.anr.fr/Project-ANR-17-CE08-0048)
-using calorimetric techniques in the EnAP team in [MADIREL](http://madirel.univ-amu.fr/node/99),
-where I completed my PhD. My [work](/academic) also includes other aspects of MOFs such as
-structural defects, synthesis and shaping. I also develop open-source [software](/software)
-for various scientific applications. Some more stuff about me is [here](/about).
+In my previous academic positions at [ICGM](https://www.icgm.fr) and
+[MADIREL](http://madirel.univ-amu.fr/node/99) I have looked at how flexible
+metal-organic frameworks react to
+[external](https://anr.fr/Project-ANR-17-CE29-0003)
+[stimuli](http://www.anr.fr/Project-ANR-17-CE08-0048) such as pressure,
+temperature and adsorbed guests, how to make adsorbent-based sensors for
+detecting contaminants in satellites, and how defects influence the adsorption
+and separation properties in crystalline hybrid porous materials.
+
+I also develop open-source [software](/software) for various scientific
+applications. Some more stuff about me is [here](/about).
