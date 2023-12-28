@@ -6,10 +6,10 @@ permalink: /
 
 # Hello
 
-### I am a researcher studying novel adsorbent materials
+### I am a scientist building new ways to characterize porous and finely divided materials
 
-I am a researcher in the field of adsorption, currently developing and
-supporting state-of-the-art gravimetric sorption devices over at
+I am a scientist in the field of adsorption, currently developing and supporting
+state-of-the-art sorption devices over at
 [Surface Measurement Systems](https://surfacemeasurementsystems.com/). My main
 research topic is looking at surfaces, interfaces and porous materials through
 the adsorption of gases. Some of my papers can be found in the
