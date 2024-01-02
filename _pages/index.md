@@ -4,7 +4,7 @@ title: Home
 permalink: /
 ---
 
-# Hello
+# Hello!
 
 ### I am a scientist building new ways to characterize porous and finely divided materials
 
