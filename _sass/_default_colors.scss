@@ -25,21 +25,19 @@ $test-blue-2: rgb(226, 234, 238);
 
 // Chosen pallette
 
-:root {
-    /* Light Colors */
-    $background-light: $transparent-dark;
-    $background-dark: $dove-grey;
+/* Light Colors */
+$background-light: $transparent-dark;
+$background-dark: $dove-grey;
 
-    $text-light: $dove-grey;
-    $text-dark: $gallery;
+$text-light: $dove-grey;
+$text-dark: $gallery;
 
-    $accent-light: $hippie-blue;
-    $accent-medium: $darker-blue;
-    $accent-dark: $dark-blue;
+$accent-light: $hippie-blue;
+$accent-medium: $darker-blue;
+$accent-dark: $dark-blue;
 
-    $accent-bright: $white;
-    $accent-dull: $cod-grey;
-}
+$accent-bright: $white;
+$accent-dull: $cod-grey;
 
 :root[color-mode="light"] {
   /* Light Colors */
