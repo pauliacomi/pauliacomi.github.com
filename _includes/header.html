@@ -1,5 +1,18 @@
 <header class="header" role="banner">
     <div id="particles-js"></div>
+    <!-- Light switch -->
+    <div class="color-mode__header">
+        <button class="color-mode__btn light--hidden" style="background-color: transparent;">
+            <svg class="svg-icon" width="16px" height="16px">
+                <use href="{{ '/assets/icons.svg#sun' | relative_url }}" />
+            </svg>
+        </button>
+        <button class="color-mode__btn dark--hidden" style="background-color: transparent;">
+            <svg class="svg-icon" width="16px" height="16px">
+                <use href="{{ '/assets/icons.svg#moon' | relative_url }}" />
+            </svg>
+        </button>
+    </div>
     <div class="header-container">
         <a href="{{ '/' | relative_url}}" title="Home">
             <img class="profile-picture" src="/assets/images/me.jpg" alt="my photo" />

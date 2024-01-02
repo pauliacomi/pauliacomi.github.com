@@ -5,6 +5,8 @@ $bouquet: rgb(170, 117, 159);
 $chelsea-cucumber: rgb(144, 170, 90);
 $cod-grey: rgb(21, 21, 21);
 $dove-grey: rgb(102, 102, 102);
+$transparent-grey: rgba(228, 226, 227, 0.712);
+$transparent-dark: rgba(40, 43, 45, 0.71);
 $transparent: rgba(0, 0, 0, 0.1);
 $gallery: rgb(234, 234, 234);
 $grey: rgb(136, 136, 136);
@@ -12,6 +14,7 @@ $gulf-stream: rgb(68, 122, 113);
 $hippie-blue: rgb(85, 143, 168);
 $light-blue: rgb(126, 193, 223);
 $dark-blue: rgb(66, 116, 138);
+$darker-blue: rgb(15, 82, 113);
 $potters-clay: rgb(143, 85, 54);
 $rajah: rgb(194, 120, 18);
 $raw-sienna: rgb(216, 103, 11);
@@ -22,19 +25,39 @@ $test-blue-2: rgb(226, 234, 238);
 
 // Chosen pallette
 
-$background-light: rgba(228, 226, 227, 0.712);
-$background-dark: $dove-grey;
 
-$text-light: $gallery;
-$text-dark: $dove-grey;
+:root[color-mode="light"] {
+  /* Light Colors */
+    $background-light: $transparent-dark;
+    $background-dark: $dove-grey;
 
-$accent-light: $hippie-blue;
-$accent-medium: rgb(15, 82, 113);
-$accent-dark: $dark-blue;
+    $text-light: $dove-grey;
+    $text-dark: $gallery;
 
-$accent-bright: $white;
-$accent-dull: $cod-grey;
+    $accent-light: $hippie-blue;
+    $accent-medium: $darker-blue;
+    $accent-dark: $dark-blue;
 
+    $accent-bright: $white;
+    $accent-dull: $cod-grey;
+}
+
+:root[color-mode="dark"] {
+    /* Dark Colors */
+    $background-light: $transparent-grey;
+    $background-dark: $dove-grey;
+
+    $text-light: $gallery;
+    $text-dark: $dove-grey;
+
+    $accent-light: $hippie-blue;
+    $accent-medium: $darker-blue;
+    $accent-dark: $dark-blue;
+
+    $accent-bright: $white;
+    $accent-dull: $cod-grey;
+}
+  
 // Applied colors
 
 // Body
@@ -55,5 +78,5 @@ $blockquote-color: $background-dark !default;
 $blockquote-border: $background-dark !default;
 
 // Code highlighting
-$code-bg-color: #f3f6fa !default;
-$code-text-color: #567482 !default;
+$code-bg-color: $white !default;
+$code-text-color: $gulf-stream !default;

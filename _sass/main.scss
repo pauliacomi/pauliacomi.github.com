@@ -64,6 +64,16 @@ section {
   margin: 0 0 20px 0;
 }
 
+// Hide/unhide theme buttons based on color mode
+
+:root[color-mode="light"] .light--hidden {
+  display: none;
+}
+
+:root[color-mode="dark"] .dark--hidden {
+  display: none;
+}
+
 /* Headings */
 
 h1,
@@ -199,6 +209,10 @@ hr {
       margin-left: 0;
     }
   }
+}
+
+.color-mode__btn {
+  color: $accent-dark;
 }
 
 /* Links */
