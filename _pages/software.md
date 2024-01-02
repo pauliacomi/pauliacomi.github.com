@@ -5,18 +5,19 @@ permalink: /software/
 ---
 # Software
 
-I enjoy letting computers do the work for me, and have worked extensively in Python and
-C++ to make this happen. In the hopes that the things I made can also help others, they
-are released as open source code. I also dabble in web design and several other languages.
-Below are some of my projects.
+I enjoy letting computers do the work for me, and have worked extensively in
+Python and C++ to make this happen. In the hopes that the things I made can also
+help others, they are released as open source code. I also dabble in web design
+and several other languages. Below are some of my projects.
 
 ### pyGAPS
 
-[pyGAPS](https://github.com/pauliacomi/pyGAPS) is an adsorption isotherm processing and
-fitting framework written in Python 3. It is open source and extensively documented. Some
-of the capabilities are: routine material characterisation (specific surface area, pore
-volume, pore size distribution), isotherm model fitting as well as multicomponent
-adsorption prediction using IAST.
+[pyGAPS](https://github.com/pauliacomi/pyGAPS) is an adsorption isotherm
+processing and fitting framework written in Python 3. It is open source and
+extensively documented. Some of the capabilities are: routine material
+characterisation (specific surface area, pore volume, pore size distribution),
+isotherm model fitting as well as multicomponent adsorption prediction using
+IAST.
 
 ### pyGAPS-GUI
 

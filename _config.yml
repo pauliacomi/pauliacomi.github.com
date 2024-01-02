@@ -7,14 +7,14 @@
 
 # Basic site settings ###################################################
 
-title: Paul Iacomi
-email: mail@iacomipaul.com
+title: Dr. Paul IACOMI
+email: mail@pauliacomi.com
 author: Paul Iacomi
 description: >- # this means ignore newlines
-  Paul Iacomi is a researcher studying gas adsorption in novel materials. 
-  His EU-funded PhD focused on the impact of defects in Metal Organic 
-  Frameworks as part of project DEFNET. He is now a postdoctoral
-  researcher at ICGM. He also drinks too much coffee.
+  Dr. Paul IACOMI is a researcher studying gas adsorption in novel materials. His
+  research previously focused on sorption in novel porous materials like Metal
+  Organic Frameworks (MOFs). He now designs sorption instruments at Surface
+  Measurement Systems. He also drinks too much coffee.
 
 baseurl: ""
 url: "https://pauliacomi.com"
