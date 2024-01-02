@@ -76,7 +76,7 @@ navigation:
   - item: "Research"
     link: "/academic/"
   - item: "Resume"
-    link: "assets/CV_IACOMI.pdf"
+    link: "/assets/downloads/CV_IACOMI.pdf"
   - item: "Software"
     link: "/software/"
   - item: "Thoughts"
