@@ -1,12 +1,12 @@
 // Raw colors
-:root{
+:root {
     --alto: rgb(37, 18, 18);
     --bouquet: rgb(170, 117, 159);
     --chelsea-cucumber: rgb(144, 170, 90);
     --cod-grey: rgb(21, 21, 21);
     --dove-grey: rgb(102, 102, 102);
     --transparent-grey: rgba(228, 226, 227, 0.712);
-    --transparent-dark: rgba(40, 43, 45, 0.71);
+    --transparent-dark: rgba(4, 6, 24, 0.8);
     --transparent: rgba(0, 0, 0, 0.1);
     --gallery: rgb(234, 234, 234);
     --grey: rgb(136, 136, 136);
@@ -23,10 +23,10 @@
     --off-white: rgb(226, 234, 238);
 }
 
-// Chosen pallette
+// Chosen pallettes
 
 :root[color-mode="light"] {
-  /* Light Colors */
+    /* Light Colors */
     --background-light: var(--transparent-dark);
     --background-dark: var(--dove-grey);
     --background-grey-1: var(--grey);
@@ -62,27 +62,27 @@
     --accent-bright: var(--white);
     --accent-dull: var(--cod-grey);
 }
-  
+
 // Applied colors
 :root {
     /* Body */
     --body-background: var(--background-light);
     --body-foreground: var(--background-dark);
 
-    /* Header */
-    --header-color: var(--background-grey-1);
-    --header-background: var(--background-grey-3);
-
     /* Buttons */
     --btn-background: var(--accent-medium);
     --btn-hover: var(--accent-dark);
     --btn-text: var(--accent-bright);
+    --btn-hover-inverted: var(--accent-bright);
 
-    /* Quotes */
+    /* Text */
+    --heading-color: var(--background-grey-1);
     --blockquote-color: var(--background-dark);
     --blockquote-border: var(--background-dark);
+    --link-color: var(--background-dark);
 
     /* Code highlighting */
     --code-bg-color: var(--accent-bright);
     --code-text-color: var(--accent-dull-2);
+    --code-border: var(--gallery);
 }

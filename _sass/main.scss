@@ -85,7 +85,7 @@ h6 {
   margin: 0 0 20px;
   font-weight: normal;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: var(--header-color);
+  color: var(--heading-color);
   letter-spacing: -0.03em;
 }
 
@@ -136,7 +136,7 @@ pre > code {
 code.highlighter-rouge {
   background: var(--code-bg-color);
   color: var(--code-text-color);
-  border: 1px solid var(--gallery);
+  border: 1px solid var(--code-border);
   border-radius: 2px;
   padding: 0px 3px;
   margin: 0px -3px;
@@ -212,13 +212,14 @@ hr {
 }
 
 .color-mode__btn {
-  color: var(--accent-dark);
+  color: var(--btn-hover-inverted);
+  background-color: transparent;
 }
 
 /* Links */
 
 a {
-  color: var(--accent-light);
+  color: var(--link-color);
   text-decoration: none;
 }
 a:hover {
@@ -239,6 +240,7 @@ a:hover {
   stroke-width: 0;
   fill: currentColor;
   padding-right: 10px;
+  pointer-events: none;
 }
 
 .social-media-list {
