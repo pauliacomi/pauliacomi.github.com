@@ -107,7 +107,7 @@ ul li {
 blockquote {
   color: var(--blockquote-color);
   padding-left: 10px;
-  border-left: 1px dotted $blockquote-border;
+  border-left: 1px dotted var(--blockquote-border);
 }
 
 /* Code Highlighting */
