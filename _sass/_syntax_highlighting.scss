@@ -10,22 +10,22 @@
 
 .highlight {
 
-  $plaintext: $alto !default;
-  $string: $chelsea-cucumber !default;
-  $literal: $chelsea-cucumber !default;
-  $keyword: $bouquet !default;
-  $error-foreground: $cod-grey !default;
-  $error-background: $gulf-stream !default;
-  $comment: $grey !default;
-  $preprocessor: $rajah !default;
-  $name-space: $rajah !default;
-  $name-attribute: $hippie-blue !default;
-  $operator: $rajah !default;
-  $keyword-type: $hippie-blue !default;
-  $regex: $gulf-stream !default;
-  $string-escape: $potters-clay !default;
-  $deleted: $gulf-stream !default;
-  $header: $hippie-blue !default;
+  $plaintext: var(--alto) !default;
+  $string: var(--chelsea-cucumber) !default;
+  $literal: var(--chelsea-cucumber) !default;
+  $keyword: var(--bouquet) !default;
+  $error-foreground: var(--cod-grey) !default;
+  $error-background: var(--gulf-stream) !default;
+  $comment: var(--grey) !default;
+  $preprocessor: var(--rajah) !default;
+  $name-space: var(--rajah) !default;
+  $name-attribute: var(--hippie-blue) !default;
+  $operator: var(--rajah) !default;
+  $keyword-type: var(--hippie-blue) !default;
+  $regex: var(--gulf-stream) !default;
+  $string-escape: var(--potters-clay) !default;
+  $deleted: var(--gulf-stream) !default;
+  $header: var(--hippie-blue) !default;
 
   color: $plaintext;
 
