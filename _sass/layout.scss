@@ -30,7 +30,7 @@
 }
 .profile-picture {
   width: $profile-image-size;
-  border: 3px solid $accent-bright;
+  border: 3px solid var(--accent-bright);
   border-radius: 5%;
   @include small {
     width: $profile-image-size - 50;
@@ -44,7 +44,7 @@
   display: inline-block;
   font-weight: bold;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: $accent-bright;
+  color: var(--accent-bright);
   letter-spacing: -1px;
 
   @include large {
@@ -146,7 +146,7 @@ label[for="nav-trigger"] {
 }
 
 .footer-col-wrapper {
-  color: $background-dark;
+  color: var(--background-dark);
   margin-left: -$spacing-unit / 2;
   display: flex;
   flex-flow: row wrap;
@@ -197,14 +197,14 @@ label[for="nav-trigger"] {
     @include mobile {
       @include relative-font-size(2.3);
     }
-    color: $accent-dark;
+    color: var(--accent-dark);
   }
   h2 {
     @include relative-font-size(2.2);
     @include mobile {
       @include relative-font-size(1.6);
     }
-    color: $accent-medium;
+    color: var(--accent-medium);
   }
   h3 {
     @include relative-font-size(1.8);
@@ -223,7 +223,7 @@ label[for="nav-trigger"] {
   h6 {
     @include relative-font-size(0.9);
     text-transform: uppercase;
-    color: $text-dark;
+    color: var(--text-dark);
     margin: 0 0 5px 0;
   }
   img {
@@ -276,7 +276,7 @@ label[for="nav-trigger"] {
 
 .post-meta {
   font-size: $small-font-size;
-  color: $text-dark;
+  color: var(--text-dark);
 }
 
 .post-link {

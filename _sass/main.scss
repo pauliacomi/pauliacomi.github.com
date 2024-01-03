@@ -52,8 +52,8 @@ body {
   }
 
   // other attributes
-  background: $body-background;
-  color: $body-foreground;
+  background: var(--body-background);
+  color: var(--body-foreground);
   font-size: $base-font-size;
   line-height: $base-line-height;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -85,7 +85,7 @@ h6 {
   margin: 0 0 20px;
   font-weight: normal;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: $header-color;
+  color: var(--header-color);
   letter-spacing: -0.03em;
 }
 
@@ -105,7 +105,7 @@ ul li {
 }
 
 blockquote {
-  color: $blockquote-color;
+  color: var(--blockquote-color);
   padding-left: 10px;
   border-left: 1px dotted $blockquote-border;
 }
@@ -117,9 +117,9 @@ pre.highlight {
   @include small {
     @include relative-font-size(0.7);
   }
-  background: $code-bg-color;
-  color: $code-text-color;
-  border: 1px solid $accent-dull;
+  background: var(--code-bg-color);
+  color: var(--code-text-color);
+  border: 1px solid var(--accent-dull);
   border-radius: 2px;
   padding: 10px;
   word-wrap: anywhere;
@@ -134,9 +134,9 @@ pre > code {
 
 // Inline code styling
 code.highlighter-rouge {
-  background: $code-bg-color;
-  color: $code-text-color;
-  border: 1px solid $gallery;
+  background: var(--code-bg-color);
+  color: var(--code-text-color);
+  border: 1px solid var(--gallery);
   border-radius: 2px;
   padding: 0px 3px;
   margin: 0px -3px;
@@ -151,7 +151,7 @@ table {
 
 th {
   text-align: left;
-  border-bottom: 1px dashed $dove-grey;
+  border-bottom: 1px dashed var(--text-light);
   padding: 5px 10px;
 }
 
@@ -162,8 +162,8 @@ td {
 hr {
   height: 0;
   border: 0;
-  border-bottom: 1px dashed $dove-grey;
-  color: $dove-grey;
+  border-bottom: 1px dashed var(--text-light);
+  color: var(--text-light);
 }
 
 /* Buttons */
@@ -182,12 +182,12 @@ hr {
   text-decoration: none;
   transition: background-color 0.25s;
   white-space: inherit;
-  background: $btn-background;
-  color: $btn-text;
+  background: var(--btn-background);
+  color: var(--btn-text);
   font-weight: 700;
 
   &:hover {
-    background-color: $btn-hover;
+    background-color: var(--btn-hover);
   }
 
   @include large {
@@ -212,13 +212,13 @@ hr {
 }
 
 .color-mode__btn {
-  color: $accent-dark;
+  color: var(--accent-dark);
 }
 
 /* Links */
 
 a {
-  color: $accent-light;
+  color: var(--accent-light);
   text-decoration: none;
 }
 a:hover {
@@ -228,7 +228,7 @@ a:hover {
 /* Icons */
 
 .white {
-  color: $accent-bright;
+  color: var(--accent-bright);
 }
 
 .svg-icon {

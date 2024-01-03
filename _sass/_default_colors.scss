@@ -26,70 +26,73 @@ $test-blue-2: rgb(226, 234, 238);
 // Chosen pallette
 
 /* Default Colors */
-$background-light: var(transparent-dark);
-$background-dark: var(dove-grey);
+:root{
+    --background-light: $transparent-dark;
+    --background-dark: $dove-grey;
 
-$text-light: var(dove-grey);
-$text-dark: var(gallery);
+    --text-light: $dove-grey;
+    --text-dark: $gallery;
 
-$accent-light: var(hippie-blue);
-$accent-medium: var(darker-blue);
-$accent-dark: var(dark-blue);
+    --accent-light: $hippie-blue;
+    --accent-medium: $darker-blue;
+    --accent-dark: $dark-blue;
 
-$accent-bright: var(white);
-$accent-dull: var(cod-grey);
+    --accent-bright: $white;
+    --accent-dull: $cod-grey;
+}
 
 :root[color-mode="light"] {
-    /* Light Colors */
-    $background-light: var(transparent-dark);
-    $background-dark: var(dove-grey);
+  /* Light Colors */
+    --background-light: $transparent-dark;
+    --background-dark: $dove-grey;
 
-    $text-light: var(dove-grey);
-    $text-dark: var(gallery);
+    --text-light: $dove-grey;
+    --text-dark: $gallery;
 
-    $accent-light: var(hippie-blue);
-    $accent-medium: var(darker-blue);
-    $accent-dark: var(dark-blue);
+    --accent-light: $hippie-blue;
+    --accent-medium: $darker-blue;
+    --accent-dark: $dark-blue;
 
-    $accent-bright: var(white);
-    $accent-dull: var(cod-grey);
+    --accent-bright: $white;
+    --accent-dull: $cod-grey;
 }
 
 :root[color-mode="dark"] {
     /* Dark Colors */
-    $background-light: var(transparent-grey);
-    $background-dark: var(dove-grey);
+    --background-light: $transparent-grey;
+    --background-dark: $dove-grey;
 
-    $text-light: var(gallery);
-    $text-dark: var(dove-grey);
+    --text-light: $gallery;
+    --text-dark: $dove-grey;
 
-    $accent-light: var(hippie-blue);
-    $accent-medium: var(darker-blue);
-    $accent-dark: var(dark-blue);
+    --accent-light: $hippie-blue;
+    --accent-medium: $darker-blue;
+    --accent-dark: $dark-blue;
 
-    $accent-bright: var(white);
-    $accent-dull: var(cod-grey);
+    --accent-bright: $white;
+    --accent-dull: $cod-grey;
 }
-
+  
 // Applied colors
+:root {
+    /* Body */
+    --body-background: var(--background-light);
+    --body-foreground: var(--background-dark);
 
-// Body
-$body-background: $background-light !default;
-$body-foreground: $background-dark !default;
+    /* Header */
+    --header-color: var(--grey);
+    --header-background: var(--test-blue-2);
 
-// Body
-$header-color: $grey !default;
-$header-background: $test-blue-2 !default;
+    /* Buttons */
+    --btn-background: var(--accent-medium);
+    --btn-hover: var(--accent-dark);
+    --btn-text: var(--white);
 
-// Buttons
-$btn-background: $accent-medium !default;
-$btn-hover: $accent-dark !default;
-$btn-text: $white !default;
+    /* Quotes */
+    --blockquote-color: var(--background-dark);
+    --blockquote-border: var(--background-dark);
 
-// Quotes
-$blockquote-color: $background-dark !default;
-$blockquote-border: $background-dark !default;
-
-// Code highlighting
-$code-bg-color: $white !default;
-$code-text-color: $gulf-stream !default;
+    /* Code highlighting */
+    --code-bg-color: var(--white);
+    --code-text-color: var(--gulf-stream);
+}
