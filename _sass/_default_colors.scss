@@ -25,52 +25,52 @@ $test-blue-2: rgb(226, 234, 238);
 
 // Chosen pallette
 
-/* Light Colors */
-$background-light: $transparent-dark;
-$background-dark: $dove-grey;
+/* Default Colors */
+$background-light: var(transparent-dark);
+$background-dark: var(dove-grey);
 
-$text-light: $dove-grey;
-$text-dark: $gallery;
+$text-light: var(dove-grey);
+$text-dark: var(gallery);
 
-$accent-light: $hippie-blue;
-$accent-medium: $darker-blue;
-$accent-dark: $dark-blue;
+$accent-light: var(hippie-blue);
+$accent-medium: var(darker-blue);
+$accent-dark: var(dark-blue);
 
-$accent-bright: $white;
-$accent-dull: $cod-grey;
+$accent-bright: var(white);
+$accent-dull: var(cod-grey);
 
 :root[color-mode="light"] {
-  /* Light Colors */
-    $background-light: $transparent-dark;
-    $background-dark: $dove-grey;
+    /* Light Colors */
+    $background-light: var(transparent-dark);
+    $background-dark: var(dove-grey);
 
-    $text-light: $dove-grey;
-    $text-dark: $gallery;
+    $text-light: var(dove-grey);
+    $text-dark: var(gallery);
 
-    $accent-light: $hippie-blue;
-    $accent-medium: $darker-blue;
-    $accent-dark: $dark-blue;
+    $accent-light: var(hippie-blue);
+    $accent-medium: var(darker-blue);
+    $accent-dark: var(dark-blue);
 
-    $accent-bright: $white;
-    $accent-dull: $cod-grey;
+    $accent-bright: var(white);
+    $accent-dull: var(cod-grey);
 }
 
 :root[color-mode="dark"] {
     /* Dark Colors */
-    $background-light: $transparent-grey;
-    $background-dark: $dove-grey;
+    $background-light: var(transparent-grey);
+    $background-dark: var(dove-grey);
 
-    $text-light: $gallery;
-    $text-dark: $dove-grey;
+    $text-light: var(gallery);
+    $text-dark: var(dove-grey);
 
-    $accent-light: $hippie-blue;
-    $accent-medium: $darker-blue;
-    $accent-dark: $dark-blue;
+    $accent-light: var(hippie-blue);
+    $accent-medium: var(darker-blue);
+    $accent-dark: var(dark-blue);
 
-    $accent-bright: $white;
-    $accent-dull: $cod-grey;
+    $accent-bright: var(white);
+    $accent-dull: var(cod-grey);
 }
-  
+
 // Applied colors
 
 // Body
