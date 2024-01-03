@@ -102,7 +102,7 @@
 label[for="nav-trigger"] {
   /* critical positioning styles */
   position: fixed;
-  right: 15px;
+  left: 15px;
   top: 20px;
   z-index: 2;
   display: none;
@@ -117,6 +117,13 @@ label[for="nav-trigger"] {
 }
 .nav-trigger:checked ~ .navbar {
   display: block;
+}
+
+.color-mode__header {
+  position: fixed;
+  right: 15px;
+  top: 20px;
+  z-index: 2;
 }
 
 /* Contact and social media */
