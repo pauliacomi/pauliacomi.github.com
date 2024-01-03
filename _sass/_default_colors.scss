@@ -20,8 +20,7 @@ $rajah: rgb(194, 120, 18);
 $raw-sienna: rgb(216, 103, 11);
 $silver-chalice: rgb(170, 170, 170);
 $white: rgb(243, 240, 240);
-$test-blue-1: rgb(205, 217, 222);
-$test-blue-2: rgb(226, 234, 238);
+$off-white: rgb(226, 234, 238);
 
 // Chosen pallette
 
@@ -29,6 +28,9 @@ $test-blue-2: rgb(226, 234, 238);
 :root{
     --background-light: $transparent-dark;
     --background-dark: $dove-grey;
+    --background-grey-1: $grey;
+    --background-grey-2: $silver-chalice;
+    --background-grey-3: $off-white;
 
     --text-light: $dove-grey;
     --text-dark: $gallery;
@@ -39,12 +41,16 @@ $test-blue-2: rgb(226, 234, 238);
 
     --accent-bright: $white;
     --accent-dull: $cod-grey;
+    --accent-dull-2: $gulf-stream;
 }
 
 :root[color-mode="light"] {
   /* Light Colors */
     --background-light: $transparent-dark;
     --background-dark: $dove-grey;
+    --background-grey-1: $grey;
+    --background-grey-2: $silver-chalice;
+    --background-grey-3: $off-white;
 
     --text-light: $dove-grey;
     --text-dark: $gallery;
@@ -61,6 +67,9 @@ $test-blue-2: rgb(226, 234, 238);
     /* Dark Colors */
     --background-light: $transparent-grey;
     --background-dark: $dove-grey;
+    --background-grey-1: $grey;
+    --background-grey-2: $silver-chalice;
+    --background-grey-3: $off-white;
 
     --text-light: $gallery;
     --text-dark: $dove-grey;
@@ -80,19 +89,19 @@ $test-blue-2: rgb(226, 234, 238);
     --body-foreground: var(--background-dark);
 
     /* Header */
-    --header-color: var(--grey);
-    --header-background: var(--test-blue-2);
+    --header-color: var(--background-grey-1);
+    --header-background: var(--background-grey-3);
 
     /* Buttons */
     --btn-background: var(--accent-medium);
     --btn-hover: var(--accent-dark);
-    --btn-text: var(--white);
+    --btn-text: var(--accent-bright);
 
     /* Quotes */
     --blockquote-color: var(--background-dark);
     --blockquote-border: var(--background-dark);
 
     /* Code highlighting */
-    --code-bg-color: var(--white);
-    --code-text-color: var(--gulf-stream);
+    --code-bg-color: var(--accent-bright);
+    --code-text-color: var(--accent-dull-2);
 }
