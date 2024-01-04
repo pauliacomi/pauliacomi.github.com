@@ -212,6 +212,8 @@ hr {
 }
 
 .color-mode__btn {
+  border: none;
+  border-radius: 0;
   background: transparent;
   color: var(--icon-color-inverted);
   transition: transform 0.25s;
@@ -221,7 +223,7 @@ hr {
   }
   
   @include small {
-    color: var(--icon-color);
+    color: var(--icon-color-inverted);
   }
 }
 
