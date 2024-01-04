@@ -180,14 +180,14 @@ hr {
   border: none;
   border-radius: 0;
   text-decoration: none;
-  transition: background-color 0.25s;
+  transition: transform  0.25s;
   white-space: inherit;
   background: var(--btn-background);
   color: var(--btn-text);
   font-weight: 700;
 
   &:hover {
-    background-color: var(--btn-hover);
+    transform: translateY(-10px);
   }
 
   @include large {
@@ -212,8 +212,8 @@ hr {
 }
 
 .color-mode__btn {
-  color: var(--btn-hover-inverted);
-  background-color: transparent;
+  background: transparent;
+  color: var(--icon-color-inverted);
 }
 
 /* Links */
@@ -229,7 +229,7 @@ a:hover {
 /* Icons */
 
 .white {
-  color: var(--accent-bright);
+  color: var(--icon-color);
 }
 
 .svg-icon {
