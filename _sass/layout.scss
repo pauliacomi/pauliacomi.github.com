@@ -44,7 +44,7 @@
   display: inline-block;
   font-weight: bold;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: var(--site-title);
+  color: var(--site-title-color);
   letter-spacing: -1px;
 
   @include large {

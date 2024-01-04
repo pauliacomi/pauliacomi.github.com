@@ -221,9 +221,9 @@ hr {
   &:hover {
     transform: translateY(-10px);
   }
-  
+
   @include small {
-    color: var(--icon-color-inverted);
+    color: var(--icon-color);
   }
 }
 
