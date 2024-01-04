@@ -19,7 +19,6 @@
     --rajah: rgb(194, 120, 18);
     --raw-sienna: rgb(216, 103, 11);
     --silver-chalice: rgb(170, 170, 170);
-    --white: rgb(243, 240, 240);
     --off-white: rgb(226, 234, 238);
 }
 
@@ -40,7 +39,7 @@
     --accent-medium: var(--darker-blue);
     --accent-dark: var(--dark-blue);
 
-    --accent-bright: var(--white);
+    --accent-bright: var(--gallery);
     --accent-dull: var(--cod-grey);
 }
 
@@ -59,7 +58,7 @@
     --accent-medium: var(--darker-blue);
     --accent-dark: var(--dark-blue);
 
-    --accent-bright: var(--white);
+    --accent-bright: var(--gallery);
     --accent-dull: var(--cod-grey);
 }
 
@@ -68,6 +67,7 @@
     /* Body */
     --body-background: var(--background-light);
     --body-foreground: var(--background-dark);
+    --footer-foreground: var(--background-grey-1);
 
     /* Buttons */
     --btn-background: var(--accent-medium);
@@ -79,7 +79,7 @@
     --heading-color: var(--background-grey-1);
     --blockquote-color: var(--background-dark);
     --blockquote-border: var(--background-dark);
-    --link-color: var(--background-dark);
+    --link-color: var(--accent-light);
 
     /* Code highlighting */
     --code-bg-color: var(--accent-bright);
