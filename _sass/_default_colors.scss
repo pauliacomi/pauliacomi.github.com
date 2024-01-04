@@ -29,11 +29,11 @@
 
 :root[color-mode="light"] {
     /* Light Colors */
-    --background-light: var(--transparent-dark);
-    --background-dark: var(--dove-grey);
-    --background-grey-1: var(--grey);
-    --background-grey-2: var(--silver-chalice);
-    --background-grey-3: var(--off-white);
+    --light: var(--transparent-grey);
+    --dark: var(--dove-grey);
+    --grey-1: var(--grey);
+    --grey-2: var(--silver-chalice);
+    --grey-3: var(--off-white);
 
     --text-light: var(--dove-grey);
     --text-dark: var(--gallery);
@@ -48,11 +48,11 @@
 
 :root[color-mode="dark"] {
     /* Dark Colors */
-    --background-light: var(--transparent-grey);
-    --background-dark: var(--off-white);
-    --background-grey-1: var(--silver-chalice);
-    --background-grey-2: var(--grey);
-    --background-grey-3: var(--off-white);
+    --light: var(--transparent-grey);
+    --dark: var(--off-white);
+    --grey-1: var(--silver-chalice);
+    --grey-2: var(--grey);
+    --grey-3: var(--off-white);
 
     --text-light: var(--gallery);
     --text-dark: var(--dove-grey);
@@ -68,9 +68,9 @@
 // Applied colors
 :root {
     /* Body */
-    --body-background: var(--background-light);
-    --body-foreground: var(--background-dark);
-    --footer-foreground: var(--background-grey-1);
+    --body-background: var(--light);
+    --body-foreground: var(--dark);
+    --footer-foreground: var(--grey-1);
 
     /* Buttons */
     --btn-background: var(--accent-medium);
@@ -79,9 +79,9 @@
     --btn-hover-inverted: var(--accent-bright);
 
     /* Text */
-    --heading-color: var(--background-grey-1);
-    --blockquote-color: var(--background-dark);
-    --blockquote-border: var(--background-dark);
+    --heading-color: var(--grey-1);
+    --blockquote-color: var(--dark);
+    --blockquote-border: var(--dark);
     --link-color: var(--accent-light);
 
     /* Code highlighting */
