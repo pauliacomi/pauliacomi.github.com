@@ -180,14 +180,14 @@ hr {
   border: none;
   border-radius: 0;
   text-decoration: none;
-  transition: transform  0.25s;
+  transition: background-color 0.25s;
   white-space: inherit;
   background: var(--btn-background);
   color: var(--btn-text);
   font-weight: 700;
 
   &:hover {
-    transform: translateY(-10px);
+    background-color: var(--btn-hover);
   }
 
   @include large {
@@ -214,6 +214,15 @@ hr {
 .color-mode__btn {
   background: transparent;
   color: var(--icon-color-inverted);
+  transition: transform 0.25s;
+
+  &:hover {
+    transform: translateY(-10px);
+  }
+  
+  @include small {
+    color: var(--icon-color);
+  }
 }
 
 /* Links */

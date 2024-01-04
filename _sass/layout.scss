@@ -24,7 +24,7 @@
 // A container for the header which centers content
 // vertically and horizontally
 .header-container {
-  z-index: 999;
+  z-index: 1;
   width: 90%;
   margin: 0 auto;
 }
@@ -103,7 +103,7 @@ label[for="nav-trigger"] {
   /* critical positioning styles */
   position: fixed;
   left: 15px;
-  top: 20px;
+  top: 30px;
   z-index: 2;
   display: none;
   @include mobile {
