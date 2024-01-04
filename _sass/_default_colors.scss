@@ -48,7 +48,7 @@
 
 :root[color-mode="dark"] {
     /* Dark Colors */
-    --light: var(--transparent-grey);
+    --light: var(--transparent-dark);
     --dark: var(--off-white);
     --grey-1: var(--silver-chalice);
     --grey-2: var(--grey);
@@ -82,7 +82,7 @@
     --heading-color: var(--grey-1);
     --blockquote-color: var(--dark);
     --blockquote-border: var(--dark);
-    --link-color: var(--accent-light);
+    --link-color: var(--accent-dark);
 
     /* Code highlighting */
     --code-bg-color: var(--accent-bright);
