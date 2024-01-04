@@ -1,15 +1,18 @@
 // Raw colors
 :root {
-    --alto: rgb(37, 18, 18);
-    --bouquet: rgb(170, 117, 159);
-    --chelsea-cucumber: rgb(144, 170, 90);
-    --cod-grey: rgb(21, 21, 21);
-    --dove-grey: rgb(102, 102, 102);
+    // Transparent colors
+    --transparent: rgba(0, 0, 0, 0.1);
     --transparent-grey: rgba(228, 226, 227, 0.712);
     --transparent-dark: rgba(4, 6, 24, 0.8);
-    --transparent: rgba(0, 0, 0, 0.1);
+    // White to black
     --gallery: rgb(234, 234, 234);
+    --off-white: rgb(226, 234, 238);
+    --silver-chalice: rgb(170, 170, 170);
     --grey: rgb(136, 136, 136);
+    --dove-grey: rgb(102, 102, 102);
+    --cod-grey: rgb(21, 21, 21);
+    // Other colors
+    --alto: rgb(37, 18, 18);
     --gulf-stream: rgb(68, 122, 113);
     --hippie-blue: rgb(85, 143, 168);
     --light-blue: rgb(126, 193, 223);
@@ -18,8 +21,8 @@
     --potters-clay: rgb(143, 85, 54);
     --rajah: rgb(194, 120, 18);
     --raw-sienna: rgb(216, 103, 11);
-    --silver-chalice: rgb(170, 170, 170);
-    --off-white: rgb(226, 234, 238);
+    --chelsea-cucumber: rgb(144, 170, 90);
+    --bouquet: rgb(170, 117, 159);
 }
 
 // Chosen pallettes
@@ -46,20 +49,20 @@
 :root[color-mode="dark"] {
     /* Dark Colors */
     --background-light: var(--transparent-grey);
-    --background-dark: var(--dove-grey);
-    --background-grey-1: var(--grey);
-    --background-grey-2: var(--silver-chalice);
+    --background-dark: var(--off-white);
+    --background-grey-1: var(--silver-chalice);
+    --background-grey-2: var(--grey);
     --background-grey-3: var(--off-white);
 
     --text-light: var(--gallery);
     --text-dark: var(--dove-grey);
 
-    --accent-light: var(--hippie-blue);
-    --accent-medium: var(--darker-blue);
-    --accent-dark: var(--dark-blue);
+    --accent-light: var(--darker-blue);
+    --accent-medium: var(--hippie-blue);
+    --accent-dark: var(--light-blue);
 
-    --accent-bright: var(--gallery);
-    --accent-dull: var(--cod-grey);
+    --accent-bright: var(--cod-grey);
+    --accent-dull: var(--gallery);
 }
 
 // Applied colors
