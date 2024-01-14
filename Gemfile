@@ -10,14 +10,20 @@ source "https://rubygems.org"
 # Happy Jekylling!
 # gem "jekyll", "~> 3.8.5"
 
+# allow http to download latest publication list
+gem "faraday"
+gem "faraday_middleware"
+
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 gem "github-pages", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
+  gem "jekyll-sitemap"
   gem "jekyll-feed", "~> 0.11"
   gem "jekyll-seo-tag", "~> 2.5"
+  gem 'jekyll-scholar'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
