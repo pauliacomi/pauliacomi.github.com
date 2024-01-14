@@ -35,9 +35,9 @@
         </a>
     </li>
     {%- endif -%}
-    {%- if site.orc_id -%}
+    {%- if site.orcid -%}
     <li class="social-media-item">
-        <a href="https://orcid.org/{{ site.orc_id | escape }}">
+        <a href="https://orcid.org/{{ site.orcid | escape }}">
             <svg class="svg-icon white">
                 <use href="{{ '/assets/icons.svg#orcid' | relative_url }}"/>
             </svg>

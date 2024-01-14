@@ -9,9 +9,7 @@
 
 title: Dr. Paul IACOMI
 email: mail@pauliacomi.com
-author: 
-  name: Paul Iacomi
-  orcid: 0000-0001-5477-1503
+author: Paul Iacomi
 description: >- # this means ignore newlines
   Dr. Paul IACOMI is a researcher studying gas adsorption in novel materials. His
   research previously focused on sorption in novel porous materials like Metal
@@ -73,7 +71,7 @@ linkedin_username: pauliacomi
 twitter_username: iacomip
 github_username:  pauliacomi
 google_scholar: 4_E8rqcAAAAJ
-orc_id: 0000-0001-5477-1503
+orcid: 0000-0001-5477-1503
 
 # Nav
 navigation:
@@ -91,4 +89,6 @@ navigation:
 scholar:
   style: apa
   sort_by: year,month
+  order: descending
   group_by: year
+  group_order: descending

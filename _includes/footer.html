@@ -6,7 +6,7 @@
             <ul class="contact-list">
                 <li class="p-name">
                     {%- if site.author -%}
-                    &copy;{{ site.author.name | escape }}
+                    &copy;{{ site.author | escape }}
                     {%- else -%}
                     {{ site.title | escape }}
                     {%- endif -%}

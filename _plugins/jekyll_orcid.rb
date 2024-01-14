@@ -12,7 +12,7 @@ module Jekyll
       @dir = dir
       @name = name
 
-      if site.config['author']['orcid']
+      if site.config['orcid']
         url = "http://feed.labs.orcid-eu.org/#{name}"
         response = Faraday.get url
         text = response.status == 200 ? response.body : ""
@@ -40,10 +40,10 @@ url: #{url}
     priority :highest
 
     def generate(site)
-      if site.config['author']['orcid']
+      if site.config['orcid']
         dir = site.config['scholar'] ? site.config['scholar']['source'] : "./_bibliography"
         FORMATS.each do |format|
-          file = BibliographyFile.new(site, site.source, dir, "#{site.config['author']['orcid']}.#{format}")
+          file = BibliographyFile.new(site, site.source, dir, "papers.#{format}")
           site.static_files << file if dir.match /^(.*?\/)?[^_]\w*$/
         end
       end
