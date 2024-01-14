@@ -87,8 +87,9 @@ navigation:
     link: "/posts/"
 
 scholar:
-  style: apa
+  style: nature
   sort_by: year,month
   order: descending
   group_by: year
   group_order: descending
+  bibliography_template: bibtemplate
