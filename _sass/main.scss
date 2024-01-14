@@ -110,6 +110,10 @@ blockquote {
   border-left: 1px dotted var(--blockquote-border);
 }
 
+ol.bibliography li {
+  list-style: none;
+}
+
 /* Code Highlighting */
 
 pre.highlight {

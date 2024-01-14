@@ -87,7 +87,7 @@ navigation:
     link: "/posts/"
 
 scholar:
-  style: nature
+  style: nature-no-et-al
   sort_by: year,month
   order: descending
   group_by: year
