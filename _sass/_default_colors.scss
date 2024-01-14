@@ -44,6 +44,11 @@
 
     --accent-bright: var(--gallery);
     --accent-dull: var(--cod-grey);
+    
+    /* Code highlighting */
+    --code-bg-color: var(--accent-bright);
+    --code-text-color: var(--accent-dull-2);
+    --code-border: var(--gallery);
 }
 
 :root[color-mode="dark"] {
@@ -63,6 +68,11 @@
 
     --accent-bright: var(--cod-grey);
     --accent-dull: var(--gallery);
+    
+    /* Code highlighting */
+    --code-bg-color: var(--off-white);
+    --code-text-color: var(--accent-dull-2);
+    --code-border: var(--gallery);
 }
 
 // Applied colors
@@ -86,9 +96,4 @@
     --blockquote-color: var(--dark);
     --blockquote-border: var(--dark);
     --link-color: var(--accent-dark);
-
-    /* Code highlighting */
-    --code-bg-color: var(--accent-bright);
-    --code-text-color: var(--accent-dull-2);
-    --code-border: var(--gallery);
 }
