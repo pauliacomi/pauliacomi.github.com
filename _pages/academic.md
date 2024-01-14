@@ -10,9 +10,9 @@ A list of peer reviewed publications I have written or co-authored, as well as
 conferences I attended and other academic exchanges. For up-to date info, follow
 the ORCID or Google Scholar links in the sidebar.
 
-### Publications (N= {% bibliography_count %} )
+### Publications (N= )
 
-{% bibliography %}
+{% bibliography --file papers %}
 
 ### Conference presentations
 
